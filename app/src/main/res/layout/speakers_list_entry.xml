@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/speakers_entry_height"
+    android:foreground="?android:attr/selectableItemBackground"
+    tools:layout_width="@dimen/speakers_entry_width">
+
+    <ImageView
+        android:id="@+id/speakers_list_entry_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        tools:src="?colorPrimary"/>
+
+    <TextView
+        android:id="@+id/speakers_list_entry_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:alpha="0.9"
+        android:background="?colorPrimaryDark"
+        android:gravity="center"
+        android:maxLines="2"
+        android:padding="4dp"
+        android:textColor="@android:color/white"
+        android:textSize="13dp"
+        tools:ignore="SpUsage"
+        tools:text="Gautier Nilhcem"/>
+</FrameLayout>

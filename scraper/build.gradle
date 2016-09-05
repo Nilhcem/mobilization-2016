@@ -1,0 +1,40 @@
+group 'com.nilhcem.droidconat'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'kotlin'
+apply plugin: 'application'
+
+mainClassName = 'com.nilhcem.droidconat.scraper.AppKt'
+
+buildscript {
+    ext.kotlin_version = '1.0.3'
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext.retrofitVersion = '2.1.0'
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+
+    compile 'com.squareup.moshi:moshi:1.2.0'
+
+    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    compile "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
+
+    compile 'org.jsoup:jsoup:1.9.2'
+}

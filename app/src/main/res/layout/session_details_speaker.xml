@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_margin">
+
+        <ImageView
+            android:id="@+id/session_details_speaker_photo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            tools:src="@color/primary_dark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/session_details_speaker_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Gautier Nilhcem"/>
+
+            <TextView
+                android:id="@+id/session_details_speaker_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/primary_text"
+                android:textSize="14sp"
+                tools:text="Software Craftsman"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

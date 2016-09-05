@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <string name="settings_notify_key" translatable="false">notify_sessions</string>
+    <string name="settings_version_key" translatable="false">app_version</string>
+    <string name="settings_conf_key" translatable="false">conference_link</string>
+    <string name="settings_github_key" translatable="false">github_link</string>
+    <string name="settings_developer_key" translatable="false">nilhcem_link</string>
+    <string name="settings_about_conf_summary" translatable="false">https://droidcon.at/</string>
+    <string name="settings_about_sources_summary" translatable="false">https://github.com/Nilhcem/droidconat-2016</string>
+    <string name="settings_about_developer_summary" translatable="false">http://www.nilhcem.com/</string>
+</resources>

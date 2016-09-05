@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/session_details_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!-- layout_height is set programmatically -->
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/session_details_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            tools:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/session_details_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"
+                tools:src="@drawable/venue"/>
+
+            <!-- layout_height is set programmatically -->
+            <!-- It should equal to (session_details_header + ?attr/actionBarSize) -->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/session_details_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="top"
+                app:layout_collapseMode="pin"/>
+
+            <LinearLayout
+                android:id="@+id/session_details_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="?attr/colorPrimary"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_margin">
+
+                <TextView
+                    android:id="@+id/session_details_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingBottom="2dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="The 2016 Android Developer Toolbox"/>
+
+                <TextView
+                    android:id="@+id/session_details_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    tools:text="May 29, 2015, 10:00 - 11:00 AM\nRoom 1 (L2)"/>
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/session_details_description_header"
+                style="@style/Session.Details.Category"
+                android:text="@string/session_details_description"/>
+
+            <TextView
+                android:id="@+id/session_details_description"
+                style="@style/Session.Details.Content"
+                tools:text="Master your tools\nto build better apps"/>
+
+            <TextView
+                android:id="@+id/session_details_speakers_title"
+                style="@style/Session.Details.Category"
+                tools:text="Speakers"/>
+
+            <LinearLayout
+                android:id="@+id/session_details_speakers_container"
+                style="@style/Session.Details.Content"
+                android:orientation="vertical"
+                tools:background="?attr/colorPrimaryDark"
+                tools:layout_height="48dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/session_details_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        app:layout_anchor="@id/session_details_header"
+        app:layout_anchorGravity="bottom|end"
+        tools:src="@drawable/session_details_like_default"/>
+</android.support.design.widget.CoordinatorLayout>

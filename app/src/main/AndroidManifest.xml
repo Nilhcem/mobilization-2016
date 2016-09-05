@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.nilhcem.droidconat"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+
+    <application
+        android:name="com.nilhcem.droidconat.DroidconApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.nilhcem.droidconat.ui.drawer.DrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.nilhcem.droidconat.ui.sessions.list.SessionsListActivity"
+            android:parentActivityName="com.nilhcem.droidconat.ui.drawer.DrawerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nilhcem.droidconat.ui.drawer.DrawerActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.nilhcem.droidconat.ui.sessions.details.SessionDetailsActivity"
+            android:parentActivityName="com.nilhcem.droidconat.ui.drawer.DrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nilhcem.droidconat.ui.drawer.DrawerActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.nilhcem.droidconat.ui.venue.ZoomableImageActivity"
+            android:parentActivityName="com.nilhcem.droidconat.ui.drawer.DrawerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nilhcem.droidconat.ui.drawer.DrawerActivity"/>
+        </activity>
+
+        <receiver
+            android:name="com.nilhcem.droidconat.receiver.BootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.nilhcem.droidconat.receiver.reminder.ReminderReceiver"/>
+    </application>
+</manifest>

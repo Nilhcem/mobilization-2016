@@ -1,0 +1,200 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+    }
+    dependencies {
+        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+        classpath 'com.frogermcs.androiddevmetrics:androiddevmetrics-plugin:0.3.1'
+        classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.0.1'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.jakewharton.hugo'
+apply plugin: 'com.frogermcs.androiddevmetrics'
+apply from: rootProject.file('settings/gradle/jacoco.gradle')
+apply from: rootProject.file('settings/gradle/sonarqube.gradle')
+
+def gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.2'
+
+    defaultConfig {
+        applicationId 'com.nilhcem.droidconat'
+        versionCode 1
+        versionName '1.0'
+
+        minSdkVersion 15
+        targetSdkVersion 24
+        resConfigs 'en', 'fr'
+
+        buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
+        buildConfigField 'String', 'API_ENDPOINT', "\"https://raw.githubusercontent.com/Nilhcem/droidconat-2016/master/assets/api/\""
+    }
+
+    buildTypes {
+        debug {
+            versionNameSuffix '-dev'
+            debuggable true
+            testCoverageEnabled true
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+
+            proguardFile rootProject.file('settings/proguard/fragmentargs.pro')
+            proguardFile rootProject.file('settings/proguard/icepick.pro')
+            proguardFile rootProject.file('settings/proguard/lombok.pro')
+            proguardFile rootProject.file('settings/proguard/okhttp3.pro')
+            proguardFile rootProject.file('settings/proguard/okio.pro')
+            proguardFile rootProject.file('settings/proguard/picasso.pro')
+            proguardFile rootProject.file('settings/proguard/retrofit2.pro')
+            proguardFile rootProject.file('settings/proguard/retrolambda.pro')
+            proguardFile rootProject.file('settings/proguard/rx-java.pro')
+            proguardFile rootProject.file('settings/proguard/streamsupport.pro')
+            proguardFile rootProject.file('settings/proguard/support-design.pro')
+            proguardFile rootProject.file('settings/proguard/support-v4.pro')
+            proguardFile rootProject.file('settings/proguard/support-v7-appcompat.pro')
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    productFlavors {
+        internal {
+            applicationIdSuffix '.internal'
+
+            buildConfigField 'boolean', 'INTERNAL_BUILD', "true"
+            buildConfigField 'String', 'MOCK_ENDPOINT', "\"http://" + getLocalIp() + ":8990/\""
+        }
+        production {
+            buildConfigField 'boolean', 'INTERNAL_BUILD', "false"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+}
+
+ext.butterknifeVersion = '8.4.0'
+ext.daggerVersion = '2.6.1'
+ext.fragmentargsVersion = '3.0.2'
+ext.icepickVersion = '3.2.0'
+ext.intentbuilderVersion = '0.14.0'
+ext.okhttpVersion = '3.4.1'
+ext.retrofitVersion = '2.1.0'
+ext.stethoVersion = '1.3.1'
+ext.supportVersion = '24.1.1'
+
+dependencies {
+    compile "com.android.support:support-v4:$supportVersion"
+    compile "com.android.support:support-annotations:$supportVersion"
+    compile "com.android.support:appcompat-v7:$supportVersion"
+    compile "com.android.support:recyclerview-v7:$supportVersion"
+    compile "com.android.support:preference-v14:$supportVersion"
+    compile "com.android.support:cardview-v7:$supportVersion"
+    compile "com.android.support:design:$supportVersion"
+    compile "com.android.support:customtabs:$supportVersion"
+
+    provided 'org.projectlombok:lombok:1.16.10'
+
+    compile 'net.sourceforge.streamsupport:streamsupport:1.5.1'
+
+    compile "com.google.dagger:dagger:$daggerVersion"
+    apt "com.google.dagger:dagger-compiler:$daggerVersion"
+
+    compile "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    compile "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.0.2'
+    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    compile "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
+
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.9'
+
+    compile 'com.jakewharton.timber:timber:4.3.0'
+    compile 'com.squareup.moshi:moshi:1.2.0'
+
+    compile "com.jakewharton:butterknife:$butterknifeVersion"
+    apt "com.jakewharton:butterknife-compiler:$butterknifeVersion"
+
+    compile "frankiesardo:icepick:$icepickVersion"
+    provided "frankiesardo:icepick-processor:$icepickVersion"
+
+    compile "se.emilsjolander:intentbuilder-api:$intentbuilderVersion"
+    apt "se.emilsjolander:intentbuilder-compiler:$intentbuilderVersion"
+
+    compile "com.hannesdorfmann.fragmentargs:annotation:$fragmentargsVersion"
+    apt "com.hannesdorfmann.fragmentargs:processor:$fragmentargsVersion"
+
+    compile 'com.github.chrisbanes:PhotoView:1.3.0'
+
+    compile 'com.squareup.sqlbrite:sqlbrite:0.7.0'
+
+    compile 'com.jakewharton.threetenabp:threetenabp:1.0.4'
+
+    internalCompile 'jp.wasabeef:takt:1.0.2'
+    internalCompile 'com.jakewharton:process-phoenix:1.0.2'
+    internalCompile "com.facebook.stetho:stetho:$stethoVersion"
+    internalCompile("com.facebook.stetho:stetho-okhttp3:$stethoVersion") {
+        exclude group: 'com.squareup.okhttp3'
+    }
+    internalCompile("com.facebook.stetho:stetho-timber:$stethoVersion") {
+        exclude group: 'com.jakewharton.timber'
+    }
+    internalCompile "com.facebook.stetho:stetho-js-rhino:$stethoVersion"
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.google.truth:truth:0.29'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+    testCompile 'org.robolectric:robolectric:3.1.2'
+}
+
+// print build finish time
+gradle.buildFinished { buildResult ->
+    def buildFinishDate = new Date()
+    def formattedDate = buildFinishDate.format('yyyy-MM-dd HH:mm:ss')
+    println "Build finished: ${formattedDate}"
+}
+
+// get current computer's ip
+// this method was simplified for example sake, but only works on 192.*.*.* ips. Need to be generic.
+def getLocalIp() {
+    for (NetworkInterface iface : NetworkInterface.networkInterfaces) {
+        for (InetAddress addr : iface.inetAddresses) {
+            if (!addr.isLoopbackAddress()) {
+                def ip = addr.hostAddress
+                if (ip.startsWith('192.')) {
+                    return ip
+                }
+            }
+        }
+    }
+}

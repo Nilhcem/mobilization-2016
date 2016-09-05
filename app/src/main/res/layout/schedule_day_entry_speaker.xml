@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/schedule_day_entry_speaker_photo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        tools:src="@color/primary_dark"/>
+
+    <TextView
+        android:id="@+id/schedule_day_entry_speaker_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="14sp"
+        tools:text="Gautier Nilhcem"/>
+</merge>

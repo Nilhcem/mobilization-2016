@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core -->
+    <string name="core_app_name">droidcon Vienne 2016</string>
+
+    <!-- Connection error -->
+    <string name="connection_error">Erreur de connexion</string>
+    <string name="connection_error_retry">Réessayer</string>
+
+    <!-- Drawer Activity -->
+    <string name="drawer_open">Ouvrir le menu de navigation</string>
+    <string name="drawer_close">Fermer le menu de navigation</string>
+    <string name="drawer_header_headline">droidcon Vienne</string>
+    <string name="drawer_header_subheadline">16–17 Septembre 2016</string>
+    <string name="drawer_nav_agenda">Les sessions</string>
+    <string name="drawer_nav_schedule">Mon agenda</string>
+    <string name="drawer_nav_speakers">Orateurs</string>
+    <string name="drawer_nav_venue">Le lieu</string>
+    <string name="drawer_nav_settings">Paramètres</string>
+
+    <!-- Schedule -->
+    <string name="schedule_browse_sessions">Parcourir les sessions</string>
+    <string name="schedule_browse_sessions_title_pattern">%1$s, %2$s</string>
+    <string name="schedule_pager_day_pattern">EEEE dd</string>
+    <string name="schedule_day_entry_session_time_format">%1$s - %2$s (%3$dmins)</string>
+
+    <!-- Session details -->
+    <string name="session_details_talk_info">%1$s, %2$s - %3$s\n%4$s</string>
+    <string name="session_details_talk_info_date_pattern">dd MMM YYYY</string>
+    <string name="session_details_description">Description</string>
+    <string name="session_details_added">Ajouté à mon agenda</string>
+    <string name="session_details_removed">Supprimé de mon agenda</string>
+    <plurals name="session_details_speakers">
+        <item quantity="one">Orateur</item>
+        <item quantity="other">Orateurs</item>
+    </plurals>
+
+    <!-- Speaker details -->
+    <string name="speaker_details_hide">Fermer</string>
+
+    <!-- Venue -->
+    <string name="venue_see_location">Voir sur la carte</string>
+    <string name="venue_see_location_error">Erreur lors de l\'ouverture de la carte.\nAvez-vous bien Google Maps installé sur votre appareil ?</string>
+    <string name="venue_title">Technikum Wien\nUniversity of Applied Sciences</string>
+    <string name="venue_address">Höchstädtplatz 6, 1200 Vienna</string>
+    <string name="venue_info">\nUniversity of Applied Sciences Technikum Wien (German: Fachhochschule Technikum Wien) was founded in 1994 and became Vienna\'s first university of applied sciences in 2000.\nIt is the largest technical university of applied sciences in Austria and offers thirteen bachelor\'s degree and seventeen master\'s degree programs.\n\n- Three large session rooms\n- Audi max for keynote\n- Located next to U6 and S-Bahn\n</string>
+    <string name="venue_see_rooms">Plan des Salles</string>
+
+    <!-- Settings -->
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notify_about_my_sessions">M\'alerter lorsqu\'une session commence</string>
+    <string name="settings_notify_about_my_sessions_description">Affiche une notification lorsqu\'une session sélectionnée est prête à commencer</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_conf_title">droidcon Vienne</string>
+    <string name="settings_about_sources_title">Code source</string>
+    <string name="settings_about_developer_title">Fait maison par</string>
+
+    <!-- Sessions reminder -->
+    <string name="reminder_about_to_start">La session %1$s va commencer !</string>
+</resources>

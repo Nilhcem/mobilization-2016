@@ -1,0 +1,9 @@
+{
+  "name": "droidconat2016-mock-server",
+  "description": "droidcon Vienna 2016 Mock Server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}

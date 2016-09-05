@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/schedule_day_recyclerview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/activity_margin_half"
+    android:paddingTop="@dimen/activity_margin_half"
+    android:scrollbars="vertical"
+    tools:listitem="@layout/schedule_day_entry"/>

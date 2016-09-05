@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_margin_fourth"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin_fourth">
+
+    <!-- Time -->
+    <TextView
+        android:id="@+id/schedule_day_entry_time"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:textColor="@color/secondary_text"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage"
+        tools:text="14:00"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Break -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/schedule_day_entry_break_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:cardBackgroundColor="#E2E2E2"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding">
+
+                <TextView
+                    android:id="@+id/schedule_day_entry_break_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    android:textStyle="italic"
+                    tools:text="Lunch break"/>
+
+                <TextView
+                    android:id="@+id/schedule_day_entry_break_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/schedule_day_entry_time"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/schedule_day_entry_time"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="13sp"
+                    tools:text="@string/schedule_day_entry_session_time_format"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- Browse -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/schedule_day_entry_browse_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:visibility="gone"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/schedule_day_entry_browse"
+                android:drawablePadding="4dp"
+                android:drawableStart="@drawable/schedule_day_entry_browse"
+                android:gravity="center_vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding"
+                android:text="@string/schedule_browse_sessions"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/schedule_day_entry_card_title"/>
+        </android.support.v7.widget.CardView>
+
+        <!-- Slot -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/schedule_day_entry_session_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding">
+
+                <TextView
+                    android:id="@+id/schedule_day_entry_session_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    tools:text="The 2016 Android Developer Toolbox"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/schedule_day_entry_session_selected_state"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:contentDescription="@null"
+                        tools:src="@drawable/sessions_list_default"/>
+
+                    <TextView
+                        android:id="@+id/schedule_day_entry_session_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/schedule_day_entry_time"
+                        android:drawablePadding="4dp"
+                        android:drawableStart="@drawable/schedule_day_entry_time"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="13sp"
+                        tools:text="@string/schedule_day_entry_session_time_format"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/schedule_day_entry_session_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/schedule_day_entry_room_bg"
+                    android:padding="4dp"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="13sp"
+                    tools:text="Room #2"/>
+
+                <LinearLayout
+                    android:id="@+id/schedule_day_entry_slot_speakers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="4dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "TayRoar Swift",
+      "title": "Senior Cat Developer",
+      "bio": "Meow meow",
+      "website": "https://medium.com/@hamen",
+      "twitter": "hamen",
+      "github": "hamen",
+      "photo": "http://localhost:8080/img/people/cat1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Brad Kitt",
+      "title": "Android Software Catsman",
+      "bio": "Meow meow purrrr",
+      "website": null,
+      "twitter": "Nilhcem",
+      "github": "Nilhcem",
+      "photo": "http://localhost:8080/img/people/cat2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pablo Picatso",
+      "title": "Entrepreneur",
+      "bio": "Meow meow meeeeowww",
+      "website": "http://alterego.solutions/",
+      "twitter": "sasa_sekulic",
+      "github": "mrsasha",
+      "photo": "http://localhost:8080/img/people/cat3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "David Meowie",
+      "title": "Google Cat Expert on Android",
+      "bio": "Meow meow rrrrrr",
+      "website": "http://www.tasomaniac.com/",
+      "twitter": "tasomaniac",
+      "github": "tasomaniac/",
+      "photo": "http://localhost:8080/img/people/cat4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Meowly Cyrus",
+      "title": "Software engimeow at CatLab",
+      "bio": "Meow meow roaar",
+      "website": "http://kotlin4android.com/",
+      "twitter": "AntonRutkevich",
+      "github": null,
+      "photo": "http://localhost:8080/img/people/cat5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Kitty Ya-meow-guchi",
+      "title": "A Tokyo based Android cat.",
+      "bio": "Meow meow meoooow",
+      "website": "http://hotchemi.tumblr.com",
+      "twitter": "hotchemi",
+      "github": "hotchemi",
+      "photo": "http://localhost:8080/img/people/cat6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Catalie Portman",
+      "title": "UI Designer @ Meowea",
+      "bio": "Meow meow miaou",
+      "website": null,
+      "twitter": "magdazadara",
+      "github": null,
+      "photo": "http://localhost:8080/img/people/cat7.jpg"
+    }
+]

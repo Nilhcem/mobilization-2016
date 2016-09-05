@@ -1,0 +1,208 @@
+[{
+	"bio": "Laurence Moroney has authored more programming books than he can remember.\nA well known speaker at conferences such as Google I/O, Microsoft Build, and others, he is passionate about mobile development, and Android in particular. When not messing around with development, he is a published Sci-Fi novelist and produced screenwriter.\nFollow Laurence on lmoroney",
+	"id": 1,
+	"name": "Laurence Moroney",
+	"photo": "https://droidcon.at/img/people/LaurenceMoroney.jpg",
+	"title": "Developer Advocate at Google, Google",
+	"twitter": "lmoroney",
+	"website": "https://plus.google.com/+LaurenceMoroney/"
+}, {
+	"bio": "Andrea Falcone is a Senior Software Engineer at Twitter. She has worked on many parts of Fabric, building the Android tooling, including Android Studio Plugin, Crashlytics Android SDK, Gradle plugin and Beta by Crashlytics. She is currently working on fastlane, an open source release process automation suite. Past talks: github.com/asfalcone/talks",
+	"github": "asfalcone",
+	"id": 2,
+	"name": "Andrea Falcone",
+	"photo": "https://droidcon.at/img/people/AndreaFalcone.jpg",
+	"title": "Software Engineer, Twitter",
+	"twitter": "asfalcone"
+}, {
+	"bio": "Gautier is an aspiring Software Craftsman at happn in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
+	"github": "Nilhcem",
+	"id": 3,
+	"name": "Gautier Mechling",
+	"photo": "https://droidcon.at/img/people/GautierMechling.jpg",
+	"title": "Software Craftsman, happn, Paris",
+	"twitter": "Nilhcem",
+	"website": "https://plus.google.com/+GautierMechling"
+}, {
+	"bio": "Daniel Hartwich is an aspiring Android Developer at the German company XING AG located in Hamburg. He has been programming for the Android platform since 2013. Whenever Google releases anything new regarding Android, Daniel instantly gets interested and investigates everything - up to the smallest detail.",
+	"github": "dhartwich1991",
+	"id": 4,
+	"name": "Daniel Hartwich",
+	"photo": "https://droidcon.at/img/people/DanielHartwich.jpg",
+	"title": "XING",
+	"twitter": "KiLLyA_"
+}, {
+	"bio": "I take care of the android side of native shopping apps at Marks & Spencer in London. My favourite topics are testing and automation, and I spend a lot of time playing about in that. In my spare time I talk at conferences or fiddle with some obscure technologies.",
+	"github": "zmarkan",
+	"id": 5,
+	"name": "Žan Markan",
+	"photo": "https://droidcon.at/img/people/ZanMarkan.jpg",
+	"title": "Marks & Spencer",
+	"twitter": "zmarkan",
+	"website": "https://plus.google.com/+%C5%BDanMarkan"
+}, {
+	"bio": "My programming path went from HTML, CSS and PHP/MySQL and ERP and BI Systems to Mobile development. With roughly 10 years of total programming experience and 6 years in mobile development, I became an Android team lead in an awesome cool young company from Zagreb - Infinum. Besides programming and learning new stuff, I enjoy reading a good book or getting wasted as noob in Counter Strike:GO.",
+	"id": 6,
+	"name": "Kristijan Jurković",
+	"photo": "https://droidcon.at/img/people/KristijanJurkovic.jpg",
+	"title": "Android Team Lead, Infinum",
+	"twitter": "kjurkovic",
+	"website": "http://www.linkedin.com/in/kristijanjurkovic"
+}, {
+	"bio": "Born in Vienna, I was writing code for as long as I can think back – including for the ZX Spectrum. Just music, but hey :-) I did my bachelor degree in information and communication systems, and am working on my master degree paper in the same area. I'm a senior Java/Android developer but also spent nearly as much time in web development with PHP, SQL and JavaScript. I started Android development in 2011, and joined PSPDFKit in 2015, where I helped a lot with improving the public framework API, and invested a lot of time in creating a stable, easy-to-use and comprehensive test suite.",
+	"id": 7,
+	"name": "David Schreiber-Ranner",
+	"photo": "https://droidcon.at/img/people/DavidSchreiber-Ranner.jpg",
+	"title": "PSPDFKit",
+	"twitter": "Flashmasterdash",
+	"website": "https://plus.google.com/112371263315253005287"
+}, {
+	"bio": "Željko has been a part of the Infinum Android team for 3 years. He has mastered all those nasty bugs and errors which can occur while developing even the most complicated projects. His passions include ORM libraries and frameworks, Android Studio and contributing to open source. His love for Android Studio can only be matched by his hatred for Eclipse",
+	"id": 8,
+	"name": "Željko Plesac",
+	"photo": "https://droidcon.at/img/people/ZeljkoPlesac.jpg",
+	"title": "Infinum",
+	"twitter": "ZeljkoPlesac",
+	"website": "https://hr.linkedin.com/in/željko-plesac-01551214"
+}, {
+	"bio": "cketti is a freelancing Android developer and open source enthusiast living in Berlin. He's one of the GDG Berlin Android leads and as such organizer of several developer events. Most importantly the monthly Android developer meetup Android Stammtisch and the conference series DevFest Berlin.",
+	"github": "cketti",
+	"id": 9,
+	"name": "cketti ",
+	"photo": "https://droidcon.at/img/people/Cketti.png",
+	"title": "Android Developer, Freelancer",
+	"twitter": "cketti",
+	"website": "https://plus.google.com/+cketti"
+}, {
+	"bio": "During college I got involved in e-learning projects where I developed in Java, and ended up in love with it. After graduation I got a job at Infinum as an Android developer, and have been working there ever since. By the end of 2014. I switched from various project in the telecommunication, medical and travel industry to mobile banking, where I became the Technical Manager of Mobile Banking in early 2016. My responsibilities include researching new technology and advancements in security, making sure new practices are implemented and generally pushing things forward in the right direction. I love making quality, reliable products. Apart from the effort you put in the architecture of the project, I believe that the details will define the difference between good and really amazing. We prefer amazing.",
+	"id": 10,
+	"name": "Ana Baotić",
+	"photo": "https://droidcon.at/img/people/AnaBaotic.jpg",
+	"title": "Technical Manager Mobile Banking, Infinum",
+	"twitter": "abaotic",
+	"website": "https://www.linkedin.com/in/abaotic"
+}, {
+	"bio": "Svetlana is a Developer Advocate at JetBrains. She's been working on the Kotlin language (kotlinlang.org) since 2011. She is one of the authors of the 'Kotlin in Action' book.",
+	"github": "svtk",
+	"id": 11,
+	"name": "Svetlana Isakova",
+	"photo": "https://droidcon.at/img/people/SvetlanaIsakova.jpg",
+	"title": "Developer Advocate, JetBrains",
+	"twitter": "sveta_isakova",
+	"website": "https://www.linkedin.com/in/svetlana-isakova-3b7b25a3"
+}, {
+	"bio": "Sina is a passionate Android developer since the early days of the platform. At c4c Engineering she spends a lot of time developing apps in the automotive and industrial area. She is interested in everything that improves and simplifies app development, such as continuous integration, architecture patterns, quality checks and testing.",
+	"id": 12,
+	"name": "Sina Grunau",
+	"photo": "https://droidcon.at/img/people/SinaGrunau.jpg",
+	"title": "Android Developer, c4c Engineering",
+	"website": "https://plus.google.com/+SinaGrunau/"
+}, {
+	"bio": "Christian started Android development way back in 2009 during college when everybody still thought iPhones were the coolest gadgets in town. During his diploma thesis he did a lot of research about concepts of integrating smartphones into vehicles. He currently works at c4c Engineering where he spends his time working on automotive apps. He is always curious about new technologies, cool gadgets and the latest features of the Android platform. If he sees fancy and well-thought-out user interfaces build upon Material Design, his eyes will start to shine.",
+	"id": 13,
+	"name": "Christian Dziuba",
+	"photo": "https://droidcon.at/img/people/ChristianDziuba.jpg",
+	"title": "Android Developer, c4c Engineering",
+	"website": "https://plus.google.com/+ChristianDziuba"
+}, {
+	"bio": "Patrick Löwenstein is a Vienna based Android developer, currently working at Tailored Apps. Also, he is studying for his Master's degree in Computer Sciences at the Vienna University of Technology. Patrick also has an Android dev blog and is active on GitHub.",
+	"github": "patloew",
+	"id": 14,
+	"name": "Patrick Löwenstein",
+	"photo": "https://droidcon.at/img/people/PatrickLoewenstein.jpg",
+	"title": "Android Developer, Tailored Apps",
+	"twitter": "0ptrblog",
+	"website": "https://at.linkedin.com/in/patrickloewenstein"
+}, {
+	"bio": "Born in Vienna in 1986 & still living there. Using Java for 15 years, coding for the Android platform since 2009. Started as a freelancer at that time and implemented Android apps for clients like the Vienna based football club Austria Wien, the Raiffeisen bank, pharmaceutical companies Bayer and Gilead, also sport apps for the public television broadcaster ORF, and the biggest delivery service platform in Austria: Mjam. Since beginning of 2016 working in the Android team of the Vienna based startup Shpock.",
+	"github": "dnmbv",
+	"id": 15,
+	"name": "Daniel Niedermühlbichler",
+	"photo": "https://droidcon.at/img/people/DanielNiedermuehlbichler.jpg",
+	"title": "Android Developer, Shpock",
+	"twitter": "DaNiederm",
+	"website": "https://www.xing.com/profile/Daniel_Niedermuehlbichler"
+}, {
+	"bio": "Serj is an Android Developer at XING, GDG Hamburg organizer and Clean Architecture geek. He is responsible for the framework part that drives the XING Main App, along side other mobile products. He is known for his passion for clean and sustainable code. DI is his middle name, Jenkins is his best friend and he eats Gradle for lunch. You will never hear him 'showing-of' a feature, but he will not miss an opportunity to tell you about 'this cool new library' or 'this awesome design pattern'.",
+	"github": "serj-lotutovici",
+	"id": 16,
+	"name": "Serghei (Serj) Lotutovici",
+	"photo": "https://droidcon.at/img/people/SergheiLotutovici.jpg",
+	"title": "Senior Android Developer, XING",
+	"twitter": "SerjLtt",
+	"website": "https://www.xing.com/profile/Serj_Lotutovici"
+}, {
+	"bio": "Tim Messerschmidt oversees Germany as Regional Lead for Google's Developer Relations team. When not working with Android, he loves building backends with Node.js and researching user authentication concepts. Recently, Tim co-authored a book about identity concepts and data security. Before joining Google, Tim ran PayPal's Developer Relations team across EMEA and APAC.",
+	"github": "seraphimserapis",
+	"id": 17,
+	"name": "Tim Messerschmidt",
+	"photo": "https://droidcon.at/img/people/TimMesserschmidt.jpg",
+	"title": "Developer Relations, Google",
+	"twitter": "seraandroid",
+	"website": "https://timmesserschmidt.com"
+}, {
+	"bio": "Android developer and Mobile team lead at Sociomantic Labs, Berlin.",
+	"github": "viraj49",
+	"id": 18,
+	"name": "Viraj Tank",
+	"photo": "https://droidcon.at/img/people/VirajTank.jpg",
+	"title": "Mobile Team Lead, Sociomantic Labs",
+	"website": "https://www.linkedin.com/in/viraj49"
+}, {
+	"bio": "Jeremie is an Android software developer for several years and currently working at Captain  Train. He is an enthusiast about good development practices and principles of Software craftsmanship.",
+	"github": "jeremiemartinez",
+	"id": 19,
+	"name": "Jérémie Martinez",
+	"photo": "https://droidcon.at/img/people/JeremieMartinez.jpg",
+	"title": "Android Developer, Captain Train",
+	"website": "https://fr.linkedin.com/in/jeremmartinez/en"
+}, {
+	"bio": "Google Developer Group Co-Organiser @Berlindroid\nAndroid and Java Evangelist @Contentful\nSoftware Engineer @Memorado and @HERE\nGraduate Software Engineer @Wooga\nResearch Associate @FraunhoferHHI\nPerson",
+	"github": "mariobodemann",
+	"id": 20,
+	"name": "Mario Bodemann",
+	"photo": "https://droidcon.at/img/people/MarioBodemann.jpg",
+	"title": "Android and Java Evangelist, Contentful",
+	"twitter": "mariobodemann",
+	"website": "https://www.linkedin.com/in/mariobodemann"
+}, {
+	"bio": "I’m an Android Engineer based in Brighton, UK working on the Android team at Buffer.\nI’m passionate about coding and love creating robust, polished and exciting projects for mobile, the web, TV, wearables and I’ll probably be toying with whatever the new thing is at the time you’re reading this – I love to be constantly learning.I’m also a keen writer as I love to share my learnings and experiences with others.\nWhen I’m not doing the above, you’ll find me with my camera, socialising, running, at the gym, playing Bass / Guitar or finding something new to engage myself in.",
+	"github": "hitherejoe",
+	"id": 21,
+	"name": "Joe Birch",
+	"photo": "https://droidcon.at/img/people/JoeBirch.jpg",
+	"title": "Android Engineer, Buffer",
+	"twitter": "hitherejoe",
+	"website": "http://hitherejoe.com/"
+}, {
+	"bio": "As Android user from the beginning, Matthias started to develop for the platform with version 1.6 in 2009. Since then he is following its progress very enthusiastically and worked on several applications, big and small, featured in the Play Store and as specialized customer solutions. During these years, he also co-founded the GDG Bremen and GDG Hamburg Android, gave several Android related talks and organized developer events around Google technologies in general. Right now he is a Android developer at the Hamburg based startup Jimdo.",
+	"id": 22,
+	"name": "Matthias Friedrich",
+	"photo": "https://droidcon.at/img/people/MatthiasFriedrich.jpg",
+	"title": "Android Developer, Jimdo",
+	"twitter": "mtthsfrdrch",
+	"website": "https://google.com/+MatthiasFriedrich"
+}, {
+	"bio": "Rina Ahmed is a Technical Evangelist for Mobile App Development at the Developer Experience & Evangelism Group at Microsoft. Currently she is specialized on Windows 10 development and cross-plattform mobile app frameworks.",
+	"id": 23,
+	"name": "Rina Ahmed",
+	"photo": "https://droidcon.at/img/people/RinaAhmed.jpg",
+	"title": "Technical Evangelist, Microsoft",
+	"twitter": "rinaahm",
+	"website": "https://at.linkedin.com/in/rinaahmed"
+}, {
+	"bio": "Andreas has been developing Wikitude's augmented reality SDK from the ground up. He leads the SDK engineering group within Wikitude and is actively developing augmented reality solutions for mobile for more than 4 years.",
+	"id": 24,
+	"name": "Andreas Schacherbauer",
+	"photo": "https://droidcon.at/img/people/AndreasSchacherbauer.jpg",
+	"title": "Head of SDK, Wikitude",
+	"twitter": "a_schacherbauer"
+}, {
+	"bio": "Hans-Christoph Steiner is a researcher and hacker with Guardian Project working to make private-by-design easy for all to achieve. He spends his time making software as private as possible yet usable by everyone, designing digital interactions focused on perceptual capabilities, and composing music with computers. With an emphasis on collaboration, he works in many forms, including free software for mobile and embedded devices, responsive sound environments, free wireless networks that build community, musical robots that listen, programming environments to let you play with math, and a jet-powered fish that you can ride. To further his research, he teaches and works at various community centers and organizes open, collaborative hacklabs and open barcamp conferences. He is currently focused on building the most flexible, private, and secure app store as well as teaching digital security, interaction design, and media programming at workshops around and universities around the world.",
+	"id": 25,
+	"name": "Hans-Christoph Steiner",
+	"photo": "https://droidcon.at/img/people/Hans-ChristophSteiner.jpg",
+	"title": "Researcher, Guardian Project",
+	"twitter": "hansstatus",
+	"website": "https://guardianproject.info/blog"
+}]

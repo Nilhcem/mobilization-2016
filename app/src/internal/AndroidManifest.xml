@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.nilhcem.droidconat"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Only useful when InternalDroidconApp.ENABLE_UNCAUGHT_EXCEPTION_PERSISTER is set to true -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="19"/>
+
+    <uses-sdk tools:overrideLibrary="jp.wasabeef.takt"/>
+
+    <application
+        android:name=".InternalDroidconApp"
+        tools:replace="android:name"/>
+</manifest>

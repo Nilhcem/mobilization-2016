@@ -1,0 +1,19 @@
+apply plugin: 'jacoco'
+
+task jacocoTestReport(type: JacocoReport, dependsOn: 'testProductionDebugUnitTest') {
+
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+
+    jacocoClasspath = configurations['androidJacocoAnt']
+
+    def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*', '**/*Test*.*', 'android/**/*.*', '**/*$*.*']
+    def debugTree = fileTree(dir: "${buildDir}/intermediates/classes/production/debug", excludes: fileFilter)
+    def mainSrc = "${project.projectDir}/src/main/java"
+
+    sourceDirectories = files([mainSrc])
+    classDirectories = files([debugTree])
+    executionData = files("${buildDir}/jacoco/testProductionDebugUnitTest.exec")
+}

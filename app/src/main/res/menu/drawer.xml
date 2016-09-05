@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_nav_schedule"
+            android:checked="true"
+            android:icon="@drawable/drawer_ic_schedule"
+            android:title="@string/drawer_nav_schedule"/>
+        <item
+            android:id="@+id/drawer_nav_agenda"
+            android:icon="@drawable/drawer_ic_agenda"
+            android:title="@string/drawer_nav_agenda"/>
+        <item
+            android:id="@+id/drawer_nav_speakers"
+            android:icon="@drawable/drawer_ic_speakers"
+            android:title="@string/drawer_nav_speakers"/>
+        <item
+            android:id="@+id/drawer_nav_venue"
+            android:icon="@drawable/drawer_ic_venue"
+            android:title="@string/drawer_nav_venue"/>
+        <item
+            android:id="@+id/drawer_nav_settings"
+            android:icon="@drawable/drawer_ic_settings"
+            android:title="@string/drawer_nav_settings"/>
+    </group>
+</menu>

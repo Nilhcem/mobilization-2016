@@ -34,7 +34,7 @@ android {
     buildToolsVersion '24.0.2'
 
     defaultConfig {
-        applicationId 'com.nilhcem.droidconat'
+        applicationId 'com.nilhcem.mobilization'
         versionCode 1
         versionName '1.0'
 

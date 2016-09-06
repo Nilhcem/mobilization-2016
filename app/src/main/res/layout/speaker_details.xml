@@ -59,21 +59,21 @@
         android:paddingRight="@dimen/activity_margin"
         android:paddingTop="0dp">
 
-        <com.nilhcem.droidconat.ui.speakers.details.SpeakerDetailsLinkIcon
+        <com.nilhcem.mobilization.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_twitter"
             style="@style/Speaker.Details.Link"
             android:padding="3dp"
             android:src="@drawable/speaker_details_twitter"
             tools:visibility="visible"/>
 
-        <com.nilhcem.droidconat.ui.speakers.details.SpeakerDetailsLinkIcon
+        <com.nilhcem.mobilization.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_detail_github"
             style="@style/Speaker.Details.Link"
             android:padding="3dp"
             android:src="@drawable/speaker_details_github"
             tools:visibility="visible"/>
 
-        <com.nilhcem.droidconat.ui.speakers.details.SpeakerDetailsLinkIcon
+        <com.nilhcem.mobilization.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_website"
             style="@style/Speaker.Details.Link"
             android:padding="1dp"

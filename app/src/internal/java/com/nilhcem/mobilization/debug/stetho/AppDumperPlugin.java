@@ -60,7 +60,7 @@ public class AppDumperPlugin implements DumperPlugin {
 
     @Override
     public String getName() {
-        return "droidconat";
+        return "mobilization";
     }
 
     @Override

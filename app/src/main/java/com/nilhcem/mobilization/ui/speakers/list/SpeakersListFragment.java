@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
-import com.nilhcem.mobilization.DroidconApp;
+import com.nilhcem.mobilization.MobilizationApp;
 import com.nilhcem.mobilization.R;
 import com.nilhcem.mobilization.data.app.DataProvider;
 import com.nilhcem.mobilization.data.app.model.Speaker;
@@ -42,7 +42,7 @@ public class SpeakersListFragment extends BaseFragment<SpeakersListPresenter> im
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
-        DroidconApp.get(getContext()).component().inject(this);
+        MobilizationApp.get(getContext()).component().inject(this);
         super.onCreate(savedInstanceState);
     }
 

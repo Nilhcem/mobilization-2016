@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Core -->
-    <string name="core_app_name">droidcon Vienne 2016</string>
+    <string name="core_app_name">Mobilization 2016</string>
 
     <!-- Connection error -->
     <string name="connection_error">Erreur de connexion</string>
@@ -10,8 +10,8 @@
     <!-- Drawer Activity -->
     <string name="drawer_open">Ouvrir le menu de navigation</string>
     <string name="drawer_close">Fermer le menu de navigation</string>
-    <string name="drawer_header_headline">droidcon Vienne</string>
-    <string name="drawer_header_subheadline">16–17 Septembre 2016</string>
+    <string name="drawer_header_headline">Mobilization VI</string>
+    <string name="drawer_header_subheadline">22 Octobre 2016</string>
     <string name="drawer_nav_agenda">Les sessions</string>
     <string name="drawer_nav_schedule">Mon agenda</string>
     <string name="drawer_nav_speakers">Orateurs</string>
@@ -52,7 +52,7 @@
     <string name="settings_notify_about_my_sessions_description">Affiche une notification lorsqu\'une session sélectionnée est prête à commencer</string>
     <string name="settings_about">À propos</string>
     <string name="settings_about_version">Version</string>
-    <string name="settings_about_conf_title">droidcon Vienne</string>
+    <string name="settings_about_conf_title">Mobilization VI</string>
     <string name="settings_about_sources_title">Code source</string>
     <string name="settings_about_developer_title">Fait maison par</string>
 

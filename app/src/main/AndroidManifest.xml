@@ -11,7 +11,7 @@
         android:required="false"/>
 
     <application
-        android:name="com.nilhcem.mobilization.DroidconApp"
+        android:name=".MobilizationApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,7 +19,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.nilhcem.mobilization.ui.drawer.DrawerActivity"
+            android:name=".ui.drawer.DrawerActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -28,7 +28,7 @@
         </activity>
 
         <activity
-            android:name="com.nilhcem.mobilization.ui.sessions.list.SessionsListActivity"
+            android:name=".ui.sessions.list.SessionsListActivity"
             android:parentActivityName="com.nilhcem.mobilization.ui.drawer.DrawerActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -36,7 +36,7 @@
         </activity>
 
         <activity
-            android:name="com.nilhcem.mobilization.ui.sessions.details.SessionDetailsActivity"
+            android:name=".ui.sessions.details.SessionDetailsActivity"
             android:parentActivityName="com.nilhcem.mobilization.ui.drawer.DrawerActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -45,7 +45,7 @@
         </activity>
 
         <activity
-            android:name="com.nilhcem.mobilization.ui.venue.ZoomableImageActivity"
+            android:name=".ui.venue.ZoomableImageActivity"
             android:parentActivityName="com.nilhcem.mobilization.ui.drawer.DrawerActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -53,7 +53,7 @@
         </activity>
 
         <receiver
-            android:name="com.nilhcem.mobilization.receiver.BootReceiver"
+            android:name=".receiver.BootReceiver"
             android:enabled="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>

@@ -12,7 +12,7 @@ import javax.inject.Inject;
 
 import jp.wasabeef.takt.Takt;
 
-public class InternalDroidconApp extends DroidconApp {
+public class InternalMobilizationApp extends MobilizationApp {
 
     /**
      * Change it manually when you want to display the FPS.

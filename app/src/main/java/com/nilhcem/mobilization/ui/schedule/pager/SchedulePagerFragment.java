@@ -11,7 +11,7 @@ import android.widget.ProgressBar;
 
 import com.hannesdorfmann.fragmentargs.annotation.Arg;
 import com.hannesdorfmann.fragmentargs.annotation.FragmentWithArgs;
-import com.nilhcem.mobilization.DroidconApp;
+import com.nilhcem.mobilization.MobilizationApp;
 import com.nilhcem.mobilization.R;
 import com.nilhcem.mobilization.data.app.DataProvider;
 import com.nilhcem.mobilization.data.app.model.Schedule;
@@ -44,7 +44,7 @@ public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> 
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
-        DroidconApp.get(getContext()).component().inject(this);
+        MobilizationApp.get(getContext()).component().inject(this);
         super.onCreate(savedInstanceState);
     }
 

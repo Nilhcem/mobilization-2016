@@ -8,7 +8,7 @@ import java.util.List;
 import retrofit2.http.GET;
 import rx.Observable;
 
-public interface DroidconService {
+public interface MobilizationService {
 
     @GET("sessions")
     Observable<List<Session>> loadSessions();

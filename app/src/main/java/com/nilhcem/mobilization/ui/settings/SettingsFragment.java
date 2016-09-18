@@ -6,7 +6,7 @@ import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 
-import com.nilhcem.mobilization.DroidconApp;
+import com.nilhcem.mobilization.MobilizationApp;
 import com.nilhcem.mobilization.R;
 import com.nilhcem.mobilization.receiver.reminder.SessionsReminder;
 import com.nilhcem.mobilization.utils.Intents;
@@ -49,7 +49,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Settin
     }
 
     private void initPresenter() {
-        DroidconApp.get(getContext()).component().inject(this);
+        MobilizationApp.get(getContext()).component().inject(this);
         presenter = new SettingsPresenter(getContext(), this, sessionsReminder);
         presenter.onCreate();
     }

@@ -3,7 +3,7 @@ package com.nilhcem.mobilization.core.dagger.module;
 import android.app.Application;
 
 import com.nilhcem.mobilization.data.network.ApiEndpoint;
-import com.nilhcem.mobilization.data.network.DroidconService;
+import com.nilhcem.mobilization.data.network.MobilizationService;
 import com.squareup.moshi.Moshi;
 
 import javax.inject.Singleton;
@@ -32,7 +32,7 @@ public final class ApiModule {
     }
 
     @Provides @Singleton
-    DroidconService provideDroidconService(Retrofit retrofit) {
-        return retrofit.create(DroidconService.class);
+    MobilizationService provideMobilizationService(Retrofit retrofit) {
+        return retrofit.create(MobilizationService.class);
     }
 }

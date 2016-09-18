@@ -1,6 +1,6 @@
 package com.nilhcem.mobilization.core.dagger;
 
-import com.nilhcem.mobilization.DroidconApp;
+import com.nilhcem.mobilization.MobilizationApp;
 import com.nilhcem.mobilization.core.dagger.module.ApiModule;
 import com.nilhcem.mobilization.core.dagger.module.AppModule;
 import com.nilhcem.mobilization.core.dagger.module.DataModule;
@@ -23,7 +23,7 @@ public interface AppComponent extends InternalAppGraph {
             throw new UnsupportedOperationException();
         }
 
-        public static AppComponent init(DroidconApp app) {
+        public static AppComponent init(MobilizationApp app) {
             return DaggerAppComponent.builder()
                     .appModule(new AppModule(app))
                     .apiModule(new ApiModule())

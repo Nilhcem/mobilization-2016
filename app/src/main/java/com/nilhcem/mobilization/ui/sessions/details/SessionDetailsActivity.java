@@ -13,7 +13,7 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.nilhcem.mobilization.DroidconApp;
+import com.nilhcem.mobilization.MobilizationApp;
 import com.nilhcem.mobilization.R;
 import com.nilhcem.mobilization.data.app.model.Session;
 import com.nilhcem.mobilization.data.app.model.Speaker;
@@ -67,7 +67,7 @@ public class SessionDetailsActivity extends BaseActivity<SessionDetailsPresenter
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        DroidconApp.get(this).component().inject(this);
+        MobilizationApp.get(this).component().inject(this);
         SessionDetailsActivityIntentBuilder.inject(getIntent(), this);
 
         super.onCreate(savedInstanceState);

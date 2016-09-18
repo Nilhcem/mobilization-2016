@@ -5,7 +5,7 @@ import com.nilhcem.mobilization.data.app.model.Session;
 import com.nilhcem.mobilization.data.app.model.Speaker;
 import com.nilhcem.mobilization.data.database.dao.SessionsDao;
 import com.nilhcem.mobilization.data.database.dao.SpeakersDao;
-import com.nilhcem.mobilization.data.network.DroidconService;
+import com.nilhcem.mobilization.data.network.MobilizationService;
 import com.nilhcem.mobilization.data.network.NetworkMapper;
 
 import java.util.List;
@@ -22,13 +22,13 @@ public class DataProvider {
 
     private final AppMapper appMapper;
     private final NetworkMapper networkMapper;
-    private final DroidconService service;
+    private final MobilizationService service;
     private final SpeakersDao speakersDao;
     private final SessionsDao sessionsDao;
     private final DataProviderCache cache;
 
     @Inject
-    public DataProvider(AppMapper appMapper, NetworkMapper networkMapper, DroidconService service, SpeakersDao speakersDao, SessionsDao sessionsDao) {
+    public DataProvider(AppMapper appMapper, NetworkMapper networkMapper, MobilizationService service, SpeakersDao speakersDao, SessionsDao sessionsDao) {
         this.appMapper = appMapper;
         this.networkMapper = networkMapper;
         this.service = service;

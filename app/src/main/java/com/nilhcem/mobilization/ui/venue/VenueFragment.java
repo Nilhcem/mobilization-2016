@@ -24,8 +24,8 @@ public class VenueFragment extends BaseFragment {
 
     @BindView(R.id.venue_image) ImageView photo;
 
-    private static final float PHOTO_RATIO = 0.406f;
-    private static final String COORDINATES_URI = "geo:48.2392867,16.3751354?q=" + Uri.encode("Technikum Wien | University of Applied Sciences");
+    private static final float PHOTO_RATIO = 0.539f;
+    private static final String COORDINATES_URI = "geo:51.7510819,19.4504222?q=" + Uri.encode("EXPO Łódź");
 
     @Override
     protected BaseFragmentPresenter newPresenter() {

@@ -41,9 +41,9 @@
     <!-- Venue -->
     <string name="venue_see_location">Voir sur la carte</string>
     <string name="venue_see_location_error">Erreur lors de l\'ouverture de la carte.\nAvez-vous bien Google Maps installé sur votre appareil ?</string>
-    <string name="venue_title">Technikum Wien\nUniversity of Applied Sciences</string>
-    <string name="venue_address">Höchstädtplatz 6, 1200 Vienna</string>
-    <string name="venue_info">\nUniversity of Applied Sciences Technikum Wien (German: Fachhochschule Technikum Wien) was founded in 1994 and became Vienna\'s first university of applied sciences in 2000.\nIt is the largest technical university of applied sciences in Austria and offers thirteen bachelor\'s degree and seventeen master\'s degree programs.\n\n- Three large session rooms\n- Audi max for keynote\n- Located next to U6 and S-Bahn\n</string>
+    <string name="venue_title">Nowa Hala EXPO</string>
+    <string name="venue_address">aleja Politechniki 4, 93-590 Łódź</string>
+    <string name="venue_info">\nMobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android and iOS mobile platforms.\n\nThis is 6th edtion of the conference organised by Java User Group Łódź community for the Community.\n</string>
     <string name="venue_see_rooms">Plan des Salles</string>
 
     <!-- Settings -->

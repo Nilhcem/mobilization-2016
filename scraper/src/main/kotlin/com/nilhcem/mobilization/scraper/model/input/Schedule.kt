@@ -1,7 +1,18 @@
 package com.nilhcem.mobilization.scraper.model.input
 
-data class ScheduleDay(val date: String, val dateReadable: String, val tracks: List<ScheduleTrack>, val timeslots: List<ScheduleTimeSlot>)
+import com.squareup.moshi.FromJson
 
-data class ScheduleTrack(val title: String, val color: String)
+data class ScheduleSlot(val breakKey: String?, val talksKey: Map<String, String>?)
 
-data class ScheduleTimeSlot(val startTime: String, val endTime: String, val sessionIds: List<Int>)
+class ScheduleSlotAdapter {
+    @FromJson fun fromJson(data: Any): ScheduleSlot {
+        if (data is Map<*, *>) {
+            if (data.contains("break_key")) {
+                return ScheduleSlot(data["break_key"] as String, null)
+            } else {
+                return ScheduleSlot(null, data.mapKeys { it.key as String }.mapValues { (it.value as Map<*, *>)["talk_key"] as String })
+            }
+        }
+        throw UnsupportedOperationException("We should have never been there")
+    }
+}

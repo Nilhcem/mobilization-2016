@@ -1,339 +1,432 @@
-[{
-	"description": "We will welcome you with hot espresso, danish pastry and your conference badge.",
-	"duration": 60,
-	"id": 1,
-	"roomId": 0,
-	"startAt": "2016-09-16 08:00",
-	"title": "Breakfast & Registration"
-}, {
-	"description": "Opening of this day of droidcon Vienna",
-	"duration": 15,
-	"id": 2,
-	"roomId": 0,
-	"startAt": "2016-09-16 09:00",
-	"title": "Welcome"
-}, {
-	"description": "Google offers a terrific number of cloud-based mobile services under the brand Firebase.\nFollow Laurence Moroney, Developer Advocate at Google, on this journey through the Firebase universe which makes the live of Android developers easier.",
-	"duration": 60,
-	"id": 3,
-	"roomId": 1,
-	"speakersId": [1],
-	"startAt": "2016-09-16 09:15",
-	"title": "Keynote"
-}, {
-	"description": "How would you like 2 extra hours of your time back every week? All mobile app developers face similar workflows as they work to upload an app to Google Play. Many of these processes are currently done manually, but why not automate them? Fabric’s set of developer tools, collectively called fastlane, makes building, testing, and releasing your app faster, reproducible and less troublesome, leaving developers more time to focus on feature code and not deployment! Learn how you can automate the tedious tasks to generate release notes, screenshots and push your final submission Google Play portal effortlessly from your command line with a powerful open source tool. github.com/fastlane/fastlane/",
-	"duration": 60,
-	"id": 4,
-	"roomId": 1,
-	"speakersId": [2],
-	"startAt": "2016-09-16 10:15",
-	"title": "Supercharging your Android app release with fastlane"
-}, {
-	"description": "Android TV is a growing platform which provides some great opportunities for developers to craft exciting applications users can enjoy from the comfort of their armchairs. However, documentation for the platform is sparse - so in this session we'll be looking at how we can create Android TV apps with the help of Google's leanback library, with the aim to educate both developers AND designers on what is possible both out-of-the box and with our own crafting! After a brief introduction to the TV platform and an open-source Vine TV app I've built (Vineyard), we'll move straight into how you can begin building applications for yourself using the leanback library and the different components that it provides - ensuring that you're following best practices along the way. We'll take a look at the different components that are provided by the framework and how you can craft custom components of your own to enhance your applications UX. Seeing as Android TV applications are completely testable, we'll also take a brief look at how this can be done to ensure your app functions as expected!",
-	"duration": 60,
-	"id": 5,
-	"roomId": 2,
-	"speakersId": [21],
-	"startAt": "2016-09-16 10:15",
-	"title": "Android TV: Building Apps with Google's LeanBack Library"
-}, {
-	"description": "The best time to talk with speakers and attendees",
-	"duration": 15,
-	"id": 6,
-	"roomId": 0,
-	"startAt": "2016-09-16 11:15",
-	"title": "Coffee Break"
-}, {
-	"description": "The Kotlin programming language is gaining popularity amongst the Android developer community. It’s a modern language that gives more power in everyday routines. Kotlin code generally looks cleaner and nicer, and it’s much easier to work with when you have less verbosity or code duplication. And this is especially noticeable comparing with the soon-to-be-archaic versions of Java used on Android. But what’s even more important, is that Kotlin is 100% compatible with all existing Java frameworks, and has good tooling in Android Studio and IntelliJ IDEA. It’s a pragmatic language with a very low learning curve, and can be quickly grasped by Java developers. In this talk we’ll discuss the concepts of the language that provide the desired expressiveness, as well as additional goodies designed specifically for Android.",
-	"duration": 60,
-	"id": 7,
-	"roomId": 1,
-	"speakersId": [11],
-	"startAt": "2016-09-16 11:30",
-	"title": "You can do better with Kotlin"
-}, {
-	"description": "Whether your app is a pet project or has millions of users, you probably need the right tools, during the development, to help you modify persisted data in real time, simulate a slow/unstable HTTP(s) connection, detect bugs as fast as possible, or create mock servers to anticipate the development of a feature.\nWe will make a demonstration of all the tools we use, in 2016, to write maintainable code and improve our productivity.",
-	"duration": 60,
-	"id": 8,
-	"roomId": 2,
-	"speakersId": [3],
-	"startAt": "2016-09-16 11:30",
-	"title": "The 2016 Android Developer Toolbox"
-}, {
-	"duration": 90,
-	"id": 9,
-	"roomId": 0,
-	"startAt": "2016-09-16 12:30",
-	"title": "Lunch Break"
-}, {
-	"description": "8 years since Android’s been released we finally have a proper Google-supported solution for testing in the Testing Support Library. We’ll go through the various stages of it, explore it’s (not so) hidden features and learn how to use it to build better apps. We will cover things such as (breaking the) test Rules, (outrunning the) test Runners and how to make most of tools such as Espresso & the Cloud Test Lab.",
-	"duration": 60,
-	"id": 10,
-	"roomId": 1,
-	"speakersId": [5],
-	"startAt": "2016-09-16 14:00",
-	"title": "Android Testing Support Library: The Nitty Gritty"
-}, {
-	"description": "We introduce Android Auto, yet another way to connect your smartphone to the car, and compare it with other solutions. By presenting the Android Auto APIs with current features and restrictions as well as the development workflow and toolset the audience will have the necessary input to start coding. When we first heard about Android Auto, we had visions of an awesome smartphone/car integration in mind. Unfortunately the current use cases for apps are limited to music and texting and we have no access to vehicle data (e.g. GPS position, speed, engine type). The development of Android Auto apps is straightforward for the given use cases and your music or texting app can be easily extended to the Android Auto context. Nevertheless we found some pitfalls that we would like to share. Android Auto is bleeding edge: APIs, development tools, etc. are changing fast, documentation is rare and toolkits are still unstable. Testing the app on real car head units is difficult. The fast update cycles of the Android Auto OS with new features during the last couple of months raise our hopes, that the APIs will be extended to more interesting uses cases very soon.",
-	"duration": 60,
-	"id": 11,
-	"roomId": 2,
-	"speakersId": [12, 13],
-	"startAt": "2016-09-16 14:00",
-	"title": "Developing Apps for Android Auto"
-}, {
-	"description": "On this year's IO Google announced Daydream, a new way of integrating your apps with Virtual Reality. To prepare the audience for those new changes, I'll explain the current situation of the VR on Android by live coding two apps: An app using Unity to produce an App on Android and IOS, but also show how to write a simple photosphere app, written in pure Java, emphasising the differences and similarities between both SDKs. After showing how to easily write Cardboard Apps, I'll introduce Daydream, and how this specification changes the usage of the SDK and how to use the simulated, or real controller.",
-	"duration": 60,
-	"id": 12,
-	"roomId": 3,
-	"speakersId": [20],
-	"startAt": "2016-09-16 14:00",
-	"title": "Virtual Reality in Android: Daydreaming about Cardboards"
-}, {
-	"description": "Smartphones have become an extension of the user, allowing them to buy stuff, pay for services and hold a strong social presence. This places strict demands on security and data privacy. If you want your users to be comfortable using your app, you must place emphasis on utilising the security methods at your disposal. This talk will cover the best practices in app security, demonstrate common mistakes and pitfalls and show what we’ve learned in our own experience in the mobile banking industry.",
-	"duration": 60,
-	"id": 13,
-	"roomId": 1,
-	"speakersId": [10],
-	"startAt": "2016-09-16 15:00",
-	"title": "Safety first – best practices in app security"
-}, {
-	"description": "The paper metaphor, bright colors and print like typography are what make Material design beautiful. What really lets it shine though is motion! While it's not hard to animate single Android UI components, it becomes harder when these components and their animations shall depend on each other. With CoordinatorLayout the official Android Design Support Library provides a powerful, top-level UI component to make these highly dynamic dependencies easily manageable. This session wants to cover what's possible out of the box using CoordinatorLayout together with some other widgets and latest additions of the Design Support Library and also aims to provide deeper insights of how it actually works. The talk will explain the basic concepts it is build on as well as its apis that developers can use to build their own ui behaviors. After the talk you will be able to define complex dependencies between your ui components and make your app shine without cluttering your activities/fragmentsviews with animation code or losing your mind in animation listener hell.",
-	"duration": 60,
-	"id": 14,
-	"roomId": 2,
-	"speakersId": [22],
-	"startAt": "2016-09-16 15:00",
-	"title": "Are you coordinating already?"
-}, {
-	"description": "Developing Augmented Reality apps for Android - Pokemon Go brought Augmented Reality to the hands of millions of users. In this session Wikitude unveils the secrets of how to build an app like Pokemon Go and shares all the possibilities Augmented Reality can bring to Android devs.",
-	"duration": 60,
-	"id": 15,
-	"roomId": 3,
-	"speakersId": [24],
-	"startAt": "2016-09-16 15:00",
-	"title": "Build the next Pokemon Go"
-}, {
-	"description": "The best time to talk with speakers and attendees",
-	"duration": 15,
-	"id": 16,
-	"roomId": 0,
-	"startAt": "2016-09-16 16:00",
-	"title": "Coffee Break"
-}, {
-	"description": "Very few concepts shook up the Android world as MVP and Dagger 2 did. MVP gave us a long-awaited clean architecture in Android apps, while Dagger 2 brought it to a whole new level by removing all the boilerplate code that we don't like writing. In this talk, I will demonstrate the benefits of the MVP architecture and its reusability and scalability. I’ll go over Dagger’s role in MVP as well as unit testing, and show how to focus on creating reusable modules on a concrete example.",
-	"duration": 60,
-	"id": 17,
-	"roomId": 1,
-	"speakersId": [6],
-	"startAt": "2016-09-16 16:15",
-	"title": "Building a maintainable app using MVP and Dagger 2"
-}, {
-	"description": "Realm: A fast and secure database for Android, which is easy to learn and integrate.\nHave you heard good things about Realm and considered replacing SQLite or ORM with Realm?\nDo you know that with tons of advantages, Realm also brings some limitations?\nHave you faced thread handling issues with Realm?\nIf yes, we will discuss different integration approaches of Realm and best practices to follow, along with RxJava, Retrofit, Dagger, Annotations & MVP.",
-	"duration": 60,
-	"id": 18,
-	"roomId": 2,
-	"speakersId": [18],
-	"startAt": "2016-09-16 16:15",
-	"title": "Safe vs Deep integration of Realm in Android"
-}, {
-	"description": "Deliver private, secure apps with ease\nMobile phones have become central to our private lives, full of intimate messages, private pictures, and a huge amount of details of our personal lives.  Our experience of using mobile software feels very private: when we look at our mobile screens, it feels like no one else can see what we are seeing.  Unfortunately, information can easily leak out in so many different ways, making it difficult for app developers to deliver on this implicit promise made to users.\nFor companies, it is clear that data can be very lucrative business.  It is also increasingly apparent that having too much data about users can destroy your business if that information gets hacked and dumped onto the internet.\nBuilding apps that can securely contain private can be hard to do, but it does not have to be.  Guardian Project's central goal is to make it as easy as possible.  We take cutting edge security research and bundle it up into free, easy to use libraries.  These libraries make it very easy to protect precious data on the device and over the internet.  These libraries use APIs that developers already know (e.g. android.database.*, java.io.*) so the ramp up time for developers is really fast.  This workshop will give an overview of our suite of libraries, including SQLCipher-for-Android, private file stores, and hardened network connections.  Then we will help you start incorporating them in your own apps, providing a wealth of examples including sample code, real world apps that use these libraries, and UI/UX patterns that work well.",
-	"duration": 60,
-	"id": 19,
-	"roomId": 3,
-	"speakersId": [25],
-	"startAt": "2016-09-16 16:15",
-	"title": "Private Development Made Easy"
-}, {
-	"description": "Let's face it - the more successful a product is, the more complex it becomes. New features are pulled into the backlog, bugs pile up like candy on Halloween and deadlines move from \"We need it Tomorrow\" to \"It had to be done last week!\". As a result teams grow, new ones emerge and a once small and simple app overpasses the dex limit and requires 300 seconds for a cold build (if you're lucky, of course). At ${company_name} we value quality, but we also require speed and a continues delivery that should never stop. With seven+ teams contributing to the main app the risk of breaking the stability of the project is even higher. Thus a clean and straight forward architecture is key for a successful rollout and our QAs sanity. This talk is about our journey from a one-block app (with a twisted maze of legacy code on top), to a multi modular and sustainable project consisting of small semi-autonomous components that assemble into our flagship app. Almost like a jigsaw puzzle.",
-	"duration": 60,
-	"id": 20,
-	"roomId": 1,
-	"speakersId": [16],
-	"startAt": "2016-09-16 17:15",
-	"title": "Scaling Android Apps - how I learned to love the puzzle"
-}, {
-	"description": "In this talk, we will see how we can re-use the DevOps methodology in an Android context. We will begin with a quick overview of a good continuous integration on Android. Then, we will see what tools we can use to implement such a process with a particular focus on testing. We will also explore the API implemented by Google to allow developers to interact with the console Play Store and therefore be able to automate deliveries. At the end of this talk, we will have a full pipeline to deploy from one git push to a production release.",
-	"duration": 60,
-	"id": 21,
-	"roomId": 2,
-	"speakersId": [19],
-	"startAt": "2016-09-16 17:15",
-	"title": "DevOps on Android: From one git push to a Play Store release"
-}, {
-	"description": "With Google Play Services 7.8, released in August 2015, Google introduced the Nearby API. This API makes use of an array of technologies like Wifi, Bluetooth, Beacons and even audio to communicate with nearby objects like bus stops, train platforms or even indoor locations like a museum. There are a lot of possibilities for using the Nearby API, for example creating a local Multiplayer game where people nearby can join a game without internet connection, or a smart bus stop that tells you when your bus is delayed and provides entertainment while you wait. The use cases are almost endless. This talk will touch the Nearby Messages API, the Nearby Locations API and the (eddystone) beacon technology.",
-	"duration": 60,
-	"id": 22,
-	"roomId": 3,
-	"speakersId": [4],
-	"startAt": "2016-09-16 17:15",
-	"title": "Nearby API - I'm lost, let's see what's nearby!"
-}, {
-	"description": "Closing this conference day",
-	"duration": 15,
-	"id": 23,
-	"roomId": 0,
-	"startAt": "2016-09-16 18:15",
-	"title": "Closing"
-}, {
-	"description": "Time to network and relax - join us at the Café Alias for free beer & wine",
-	"duration": 180,
-	"id": 24,
-	"roomId": 0,
-	"startAt": "2016-09-16 19:00",
-	"title": "Afterparty"
-}, {
-	"description": "We will welcome you with hot espresso, danish pastry and your conference badge.",
-	"duration": 15,
-	"id": 25,
-	"roomId": 0,
-	"startAt": "2016-09-17 09:00",
-	"title": "Breakfast & Registration"
-}, {
-	"description": "Opening of this day of droidcon Vienna",
-	"duration": 15,
-	"id": 26,
-	"roomId": 0,
-	"startAt": "2016-09-17 09:15",
-	"title": "Welcome"
-}, {
-	"description": "User authentication is one of the most important parts of mobile applications. Still, many developers are often overwhelmed by the challenge that is posed by integrating multiple identity providers, implementing user-friendly username-password flows, and storing this data securely across a multitude of devices.\nIn this talk Tim will cover principles of good user authentication that can support developers in implementing a compelling UI, password-less login systems built on open standards and various functionalities within Android, that allow for signing-in users automatically.",
-	"duration": 60,
-	"id": 27,
-	"roomId": 1,
-	"speakersId": [17],
-	"startAt": "2016-09-17 09:30",
-	"title": "User Authentication designed for 2016 and beyond"
-}, {
-	"description": "This will be an impromptu talk by cketti, very much influenced by the audience!",
-	"duration": 60,
-	"id": 28,
-	"roomId": 2,
-	"speakersId": [9],
-	"startAt": "2016-09-17 09:30",
-	"title": "Something about Intents and URI permissions"
-}, {
-	"description": "For years crash handling was one of the worst parts of the Android development process. With each new crash you were risking a lot - getting bad Google Play reviews, negative comments and dissatisfied customers. Nobody likes the \"Unfortunately, your app has crashed\" dialog, but there was only so much you could do about it, beside logging the crash to a remote server. In the last couple of months a lot has changed. We've been introduced to brand new tools to help us cope with this problem. During this talk, we'll demonstrate how to use several tools and techniques that have made our lives easier. We'll discuss different ways of predicting crashes even before they occur by means of static code checkers, automatic tests and CI setup. Additionally, we'll show you how to detect memory leaks, explain advanced exception and crash logging by using a combination of several different tools. Finally, we’ll demonstrate how to provide a better crash experience or hide the crash altogether if the crash is simply inevitable!",
-	"duration": 60,
-	"id": 29,
-	"roomId": 1,
-	"speakersId": [8],
-	"startAt": "2016-09-17 10:30",
-	"title": "Crash Wars: The handling awakens"
-}, {
-	"description": "Xamarin is a Cross-Platform Framework that allows developers to build mobile applications for iOS, Android and Windows using .NET and C#. From a single language mobile developers can leverage the power of C# and a single codebase to build and maintain their apps for all of the above three platforms. This talk gives an introduction of Xamarin and how Android developers can use it to develop apps not only for Android but easily add other platforms to it.",
-	"duration": 60,
-	"id": 30,
-	"roomId": 2,
-	"speakersId": [23],
-	"startAt": "2016-09-17 10:30",
-	"title": "Xamarin for Android Developers"
-}, {
-	"description": "The best time to talk with speakers and attendees",
-	"duration": 15,
-	"id": 31,
-	"roomId": 0,
-	"startAt": "2016-09-17 11:30",
-	"title": "Coffee Break"
-}, {
-	"description": "You have tons of custom getters in your model classes to avoid getting null values where you don’t want them? Multiple null-checks for one effective line of code? And what’s about all the clumsy binding of views from your XML-layouts? Maybe you already accepted all that and more as part of building an Android app. But there is hope! With the fresh release of Kotlin 1.0 in February 2016 the JetBrains team gave Android developers a wonderful modern language to build their apps in a more concise, more readable and more stable way. And I will show you how to use the powers of Kotlin for your next Android project.",
-	"duration": 60,
-	"id": 32,
-	"roomId": 1,
-	"speakersId": [15],
-	"startAt": "2016-09-17 11:45",
-	"title": "The Blessings of Kotlin for Android"
-}, {
-	"description": "Model-View-Presenter (MVP) architecture is widely used in today’s Android apps to separate the view from the view logic and the model by introducing a presenter. Model-View-ViewModel (MVVM) is quite similar to MVP, with the view model acting as an enhanced presenter, using a data binder to keep the view model and the view in sync. By binding the view to view model properties, the data binder can handle view updates, without the need to manually set changed data back to the view (e.g. no more setText() or setVisibility() on a TextView). As with the presenter in MVP, the view model can easily be unit tested. This talk gives an introduction to the MVVM architecture and how it can be used on Android with the data binding library.",
-	"duration": 60,
-	"id": 33,
-	"roomId": 2,
-	"speakersId": [14],
-	"startAt": "2016-09-17 11:45",
-	"title": "MVVM architecture with the data binding library"
-}, {
-	"description": "Get your feet wet using Firebase by following the Firebase codelab! In this codelab, you'll learn how to use the Firebase platform to easily create Android applications. You will implement a chat client and be able to monitor its performance using Firebase.",
-	"duration": 30,
-	"id": 34,
-	"roomId": 1,
-	"speakersId": [17, 1],
-	"startAt": "2016-09-17 12:45",
-	"title": "Firebase Codelab"
-}, {
-	"description": "At PSPDFKit we're building, maintaining and evolving a large PDF framework (for viewing and editing) with more than 500 Java classes, and an even bigger number of classes in native C++ code. Iterating quickly, we try to keep up a bi-weekly release cycle – along with a lot of refactorings to keep control of the code. After almost two years we are looking back at a journey of testing. With more than 700 distinctive instrumentation tests (including unit tests, screenshot tests, UI integration tests), a full test run would take about 40 minutes and we use a lot of tricks to keep the turnaround time low. The talk will outline several of the issues that we encountered (method count limits in library test APKs, Espresso test flakiness, slow execution speeds of instrumentation tests, etc.) and how we managed to overcome them.",
-	"duration": 30,
-	"id": 35,
-	"roomId": 2,
-	"speakersId": [7],
-	"startAt": "2016-09-17 12:45",
-	"title": "Why testing an Android framework is different?"
-}, {
-	"duration": 75,
-	"id": 36,
-	"roomId": 0,
-	"startAt": "2016-09-17 13:15",
-	"title": "Lunch Break"
-}, {
-	"duration": 30,
-	"id": 37,
-	"roomId": 1,
-	"startAt": "2016-09-17 14:30",
-	"title": "Give your App a REPL (Jason Feinstein)"
-}, {
-	"duration": 30,
-	"id": 38,
-	"roomId": 2,
-	"startAt": "2016-09-17 14:30",
-	"title": "Developing an Android Library (Dino Kovac)"
-}, {
-	"duration": 30,
-	"id": 39,
-	"roomId": 1,
-	"startAt": "2016-09-17 15:00",
-	"title": "RxJava Best Practices (Kavya Hebbani)"
-}, {
-	"duration": 30,
-	"id": 40,
-	"roomId": 2,
-	"startAt": "2016-09-17 15:00",
-	"title": "Acceptance Tests and Android with Fitnesse (Maurice Wohlkönig)"
-}, {
-	"description": "The best time to talk with speakers and attendees",
-	"duration": 30,
-	"id": 41,
-	"roomId": 0,
-	"startAt": "2016-09-17 15:30",
-	"title": "Coffee Break"
-}, {
-	"duration": 30,
-	"id": 42,
-	"roomId": 1,
-	"startAt": "2016-09-17 16:00",
-	"title": "Consistent Data Source using RxJava for MVP (Carmelo Iriti)"
-}, {
-	"duration": 30,
-	"id": 43,
-	"roomId": 1,
-	"startAt": "2016-09-17 16:30",
-	"title": "Test driven development and MVP (Tim Schonberger)"
-}, {
-	"duration": 30,
-	"id": 44,
-	"roomId": 1,
-	"speakersId": [3],
-	"startAt": "2016-09-17 17:00",
-	"title": "Android Wear - Improve your Android skills (Gautier Mechling)"
-}, {
-	"duration": 30,
-	"id": 45,
-	"roomId": 1,
-	"startAt": "2016-09-17 17:30",
-	"title": "A Beginners Guide to Annotation Processing (Jason Feinstein)"
-}, {
-	"description": "Closing this conference day",
-	"duration": 15,
-	"id": 46,
-	"roomId": 0,
-	"startAt": "2016-09-17 18:00",
-	"title": "Closing"
-}]
+[
+  {
+    "description": "If you do not want to miss any presentation please register between 7:30-9:10. However, registration will be opened all day!",
+    "duration": 90,
+    "id": 1,
+    "roomId": 0,
+    "startAt": "2016-10-22 07:30",
+    "title": "Registration"
+  },
+  {
+    "description": "This is couple of words about Mobilization. For community by community.",
+    "duration": 10,
+    "id": 2,
+    "roomId": 0,
+    "startAt": "2016-10-22 09:00",
+    "title": "Hello World"
+  },
+  {
+    "description": "Tizen to platforma open-source wspierana przez różnych operatorów i producentów sprzętu. Dedykowana jest różnym urządzeniom: od mobilnych, poprzez telewizory, a skończywszy na znajdujących się w samochodach.Podczas tej prezentacji, uczestnicy poznają jaka jest wizja i cele Platformy, a także wskazówki dotyczące narzędzi, za pomocą których można przygotować aplikacje i rozwiązania w oparciu o platformę Tizen. [PL]",
+    "duration": 45,
+    "id": 3,
+    "roomId": 1,
+    "speakersId": [
+      22
+    ],
+    "startAt": "2016-10-22 09:10",
+    "title": "Tizen ecosystem"
+  },
+  {
+    "description": "Ionic Framework to nowe narzędzie pozwalające tworzyć zaawansowane aplikacje mobilne na iOS i Androida. Pozwala on programistom webowym rozpocząć przygodę z programowaniem mobilnym wykorzystując ich znajomość JavaScriptu. Na tej sesji poznasz podstawy AngularJS, na którym oparty jest Ionic oraz zobaczysz na żywo jak powstaje aplikacja mobilna korzystająca z tego frameworka. [PL]",
+    "duration": 45,
+    "id": 4,
+    "roomId": 2,
+    "speakersId": [
+      7
+    ],
+    "startAt": "2016-10-22 09:10",
+    "title": "Ionic Framework, czyli jak podbić smartfony i tablety z pomocą JavaScriptu"
+  },
+  {
+    "description": "W swojej prezentacji przybliżę technologie e-ink oraz jej zastosowania w urządzeniach embedded. Poruszony zostanie zarówno aspekt hardware jak i software zastosowania nowoczesnych wyświetlaczy opartych na e-papierze oraz pokrewnych (zero-power displays). [PL]",
+    "duration": 45,
+    "id": 5,
+    "roomId": 3,
+    "speakersId": [
+      12
+    ],
+    "startAt": "2016-10-22 09:10",
+    "title": "E-papier w technologiach mobilnych"
+  },
+  {
+    "description": "In his presentation, Dominik will cover some of the features that were introduced in OpenGL ES 3.1. Attendants are expected to have on-hands experience with OpenGL ES 3.0. The lecture will be held in Polish. [PL]",
+    "duration": 45,
+    "id": 6,
+    "roomId": 4,
+    "speakersId": [
+      5
+    ],
+    "startAt": "2016-10-22 09:10",
+    "title": "New features introduced in OpenGL ES 3.1"
+  },
+  {
+    "description": "Na prezentacji zostanie przeprowadzona prelekcja na temat ciekawych inicjatyw realizowanych przez Transition Technologies S.A. w coraz to bardziej rosnącej na popularności domenie Internet of Things. Zaprezentowane zostaną projekty, zarówno realizowane, jak i te w fazie koncepcji. Prezentacja zakończy się ciekawą niespodzianką dla publiczności. [PL]",
+    "duration": 45,
+    "id": 7,
+    "roomId": 5,
+    "speakersId": [
+      34
+    ],
+    "startAt": "2016-10-22 09:10",
+    "title": "SkyNet is coming, welcome to Internet of Things era"
+  },
+  {
+    "duration": 20,
+    "id": 8,
+    "roomId": 0,
+    "startAt": "2016-10-22 09:55",
+    "title": "Coffee Break"
+  },
+  {
+    "description": "Na rzeczywistych przykładach pokażę jak wygląda proces oceny bezpieczeństwa aplikacji mobilnych. Zobaczymy m.in. jak wykrywać słabości związane z przechowywaniem danych na urządzeniu, nieprawidłowości w transmisji, oraz najgroźniejsze - błędy w API po stronie serwera (np. błędy logiczne, kontroli dostępu, REST). Jednocześnie okaże się jakie techniki utrudniają ataki, jaki jest faktyczny wpływ na ryzyko poszczególnych podatności, oraz jakie zabezpieczenia warto zastosować w różnych aplikacjach. [PL]",
+    "duration": 45,
+    "id": 9,
+    "roomId": 1,
+    "speakersId": [
+      10
+    ],
+    "startAt": "2016-10-22 10:15",
+    "title": "Testy bezpieczeństwa aplikacji mobilnych na przykładach"
+  },
+  {
+    "description": "O tym jak wykorzystać mniej znane bądź bardziej zaawansowane techniki dostępne dla programistów Objective-C aby zmniejszyć ilość i zwiększyć jakość i czytelność pisanego kodu, techniki takie jak tworzenie DSL, wykorzystanie meta-programmingu i Objective-C runtime. [PL]",
+    "duration": 45,
+    "id": 10,
+    "roomId": 2,
+    "speakersId": [
+      14
+    ],
+    "startAt": "2016-10-22 10:15",
+    "title": "Jak pisać mniej kodu?"
+  },
+  {
+    "description": "Przegląd usług, pozwalających stworzyć backend dla aplikacji mobilnych (na przeróżne platformy). Od ASP.NET Web API, przez SignalR (usługi utrzymujące stałe połączenie) aż po Azure Mobile Services (prosty backend z autoryzacją, notyfikacjami PUSH, bazą danych) I inne usługi w Microsoft Azure dla aplikacji mobilnych (nie tylko Windows Phone). [PL]",
+    "duration": 45,
+    "id": 11,
+    "roomId": 3,
+    "speakersId": [
+      6
+    ],
+    "startAt": "2016-10-22 10:15",
+    "title": "Usługi dla aplikacji mobilnych"
+  },
+  {
+    "description": "Android Wear to nowa edycja systemu Android przeznaczona specjalnie na inteligentne zegarki. Istnieje kilka prostych sposobów, abyś jako deweloper mógł dodać wsparcie dla Android Wear w swoim kodzie. Aby jednak mieć pewność, że twoja appka zagości na nadgarstku użytkowników na stałe, musisz oduczyć się niektórych przyzwyczajeń z projektowania na mobile. W tej prezentacji pokażę czego unikać, co robić i jak to robić podczas tworzenia interfejsów na Android Wear. [PL]",
+    "duration": 45,
+    "id": 12,
+    "roomId": 4,
+    "speakersId": [
+      31
+    ],
+    "startAt": "2016-10-22 10:15",
+    "title": "Android Wear"
+  },
+  {
+    "description": "Sądzisz, że projektowanie oprogramowania jest zbyt trudne? Opowiem Ci, jak w czterech krokach wkroczyć w wspaniały świat designu. [PL]",
+    "duration": 45,
+    "id": 13,
+    "roomId": 5,
+    "speakersId": [
+      9
+    ],
+    "startAt": "2016-10-22 10:15",
+    "title": "Cztery podstawy projektowania oprogramowania"
+  },
+  {
+    "duration": 20,
+    "id": 14,
+    "roomId": 0,
+    "startAt": "2016-10-22 11:00",
+    "title": "Coffee Break"
+  },
+  {
+    "description": "Did you know that on a road map of Europe over 800 sextillion unique routes exist? That's an '8' followed by 23 zeros. The quantity of data available via the Internet today is mind boggling, yet a list of all Europe's routes would need more storage space than the Internet's total data storage. Even just calculating the list of routes in full would take around 27 trillion years - 2,000 times the current age of our universe. At TomTom we invented an algorithm that can pre-calculate the key properties of all 800 sextillion routes, together with a way to squeeze all that information into every TomTom device. That's how NavKit routing makes it possible to find quicker journeys when you need them at any point in time. [EN]",
+    "duration": 45,
+    "id": 15,
+    "roomId": 1,
+    "speakersId": [
+      8
+    ],
+    "startAt": "2016-10-22 11:20",
+    "title": "Quicker Journeys through Algorithm Engineering"
+  },
+  {
+    "description": "What is the state of the art when it comes to enabling context inside your apps? What's possible with beacons? What's not possible and should be avoided? What are the best use cases and guidelines up to date and what's coming next? [EN]",
+    "duration": 45,
+    "id": 16,
+    "roomId": 2,
+    "speakersId": [
+      19
+    ],
+    "startAt": "2016-10-22 11:20",
+    "title": "World of beacon enabled apps"
+  },
+  {
+    "description": "Chciałabym poruszyć temat współpracy na linii projektant <> programista, spojrzeć na zagadnienie z obu stron i zastanowić się, w jaki sposób można by ograniczyć niepotrzebne konflikty, poprawić komunikację i uczynić wspólną pracę jak najbardziej bezbolesną. [PL]",
+    "duration": 45,
+    "id": 17,
+    "roomId": 3,
+    "speakersId": [
+      21
+    ],
+    "startAt": "2016-10-22 11:20",
+    "title": "Współpraca projektanta i programisty - jak pogodzić dwa światy"
+  },
+  {
+    "description": "Chciałbym zapoznać uczestników z tym jak pisać: Watchaface, Activity, Notifications etc. na Android Wear i o czym warto pamiętać (prezentacja z kawałkami kodu). [PL]",
+    "duration": 45,
+    "id": 18,
+    "roomId": 4,
+    "speakersId": [
+      17
+    ],
+    "startAt": "2016-10-22 11:20",
+    "title": "Android Wear od rozpoznawiania mowy do własnych cyferblatów"
+  },
+  {
+    "description": "Aplikacje hybrydowe (aplikacje mobilne zbudowane w technologiach webowych) od zawsze były uważane za rozwiązanie kontrowersyjne. Jednak patrząc na ich rosnącą popularność, możemy być przekonani, że nie jest to technologia która odchodzi do lamusa. Podczas mojej perezentacji postaram się wyjaśnić czym są aplikacje hybrydowe oraz porównać je z ich głównymi alternatywami: aplikacjami natywnymi i webowymi. Podzielę się też moimi doświadczeniami i najważniejszymi wnioskami które wyciągnełem przez półtora roku mojej pracy nad \"hybrydami\". [PL]",
+    "duration": 45,
+    "id": 19,
+    "roomId": 5,
+    "speakersId": [
+      11
+    ],
+    "startAt": "2016-10-22 11:20",
+    "title": "Rzeczy których nauczyłem się pracując nad hybrydowymi aplikacjami"
+  },
+  {
+    "duration": 20,
+    "id": 20,
+    "roomId": 0,
+    "startAt": "2016-10-22 12:05",
+    "title": "Coffee Break"
+  },
+  {
+    "description": "When devising an app we make oceans of decisions. Some are dictated by personal preferences, some by principles, some by elaborating feedback on beta versions and some by taking inspiration from other apps. A posteriori, depending on the \"success\" of the app we can say which decisions were right or wrong. An alternative approach is based on Mental Models, \"minimal pictures\" that can be used to describe how people learn and interact. Before buying an app your customer has already a mental model of how it should work. Knowing more about that model helps you a lot to devise an experience that matches customers' expectations. [EN]",
+    "duration": 45,
+    "id": 21,
+    "roomId": 1,
+    "speakersId": [
+      3
+    ],
+    "startAt": "2016-10-22 12:25",
+    "title": "Apps and Mental Models"
+  },
+  {
+    "description": "It's obvious that nowadays just having working code is not enough. As projects and teams grow, the code often starts to diminish in quality, which increases maintainability costs. Code should be clean and concise. It should be easy to understand and consequently easy to maintain. A \"GOTO FAIL\" shouldn't ever pass! Dozens of tools and techniques exist to help developers keep their code base clean and of high quality. During this talk we're going to see what is available in the iOS/OSX space and see how combining these with good practices such as unit testing, we can help identify bugs, code smells and refactor to produce a better code base. [EN]",
+    "duration": 45,
+    "id": 22,
+    "roomId": 2,
+    "speakersId": [
+      24
+    ],
+    "startAt": "2016-10-22 12:25",
+    "title": "Tools and Techniques that help maintain a high quality code base"
+  },
+  {
+    "description": "Tworzenie laboratorium do testów aplikacji mobilnych może być okazać się skomplikowanym zadaniem. Przedstawię 5 kruczków, o których możecie nie pomyśleć tworząc labolatorium testowe, a na które my natknęliśmy się podczas tworzenia naszej publicznie dostępnej chmury urządzeń mobilnych jak i labolatoriów testowych bezpośrednio u klientów. [PL]",
+    "duration": 45,
+    "id": 23,
+    "roomId": 3,
+    "speakersId": [
+      26
+    ],
+    "startAt": "2016-10-22 12:25",
+    "title": "Tworzenie laboratoriów testowych na dużą skalę"
+  },
+  {
+    "description": "Ever since we started developing for Android platform, we noticed that some tasks are repetitive: from simple things like finding views in our activities, to sending extras or creating fragments with arguments, to creating parcelable classes, to persisting data, to creating web service clients. This not only slows down initial development, but is mostly a problem when reviewing the code and later continuing to develop new features. During the talk I will show you many tools and libraries that are available to make your code base smaller, simpler and easier to maintain. Tell which are still sexy and which you should stop using and why. And finally I want to give you a peek into the future. [EN]",
+    "duration": 45,
+    "id": 24,
+    "roomId": 4,
+    "speakersId": [
+      1
+    ],
+    "startAt": "2016-10-22 12:25",
+    "title": "Boiling out Boilerplate"
+  },
+  {
+    "description": "Żyjemy w świecie, w którym codziennie pojawia się wiele nowych wersji urządzeń, systemów i aplikacji. Internet jest dziś powszechnie dostępny i mamy go w kieszeni, w postaci smartfona. Posiadamy też wiele innych urządzeń przenośnych, takich jak tablety, odtwarzacze, kamery itp., które łączą się przez Internet. Każde z nich ma unikalne cechy i funkcje. Chcielibyśmy mieć do nich dostęp zawsze i wszędzie. Pokażemy Wam w jaki sposób, przy wykorzystaniu architektury mikroserwisów, można tworzyć ultralekkie usługi na urządzeniach działających pod kontrolą systemu Android i wykorzystywać je w aplikacjach. Wasze urządzenia i aplikacje mogą być dostępne przez przeglądarkę, mogą też się ze sobą łączyć i wymieniać dane. Wspólnie, na żywo, zbudujemy aplikację mobilną w taki sposób, aby można było korzystać z jej funkcji przez przeglądarkę. [PL]",
+    "duration": 45,
+    "id": 25,
+    "roomId": 5,
+    "speakersId": [
+      28,
+      29
+    ],
+    "startAt": "2016-10-22 12:25",
+    "title": "Android do usług, czyli ultralekkie serwisy na urządzeniach mobilnych"
+  },
+  {
+    "description": "There is Solider soup - \"Grochówka\" for everyone! VIPs (Speakers, Sponsors) have lunch in Congresowa Restaurant on base floor.",
+    "duration": 80,
+    "id": 26,
+    "roomId": 0,
+    "startAt": "2016-10-22 13:10",
+    "title": "Lunch Break"
+  },
+  {
+    "description": "Presentation contains 3 parts: 1) Brief story about project history: how it was born, grew and become what it is. 2) Library structure, internal features. It will be useful for those who use the library or plan to use it. 3) Short FAQ about the project with comments. [EN]",
+    "duration": 45,
+    "id": 27,
+    "roomId": 1,
+    "speakersId": [
+      27
+    ],
+    "startAt": "2016-10-22 14:30",
+    "title": "Universal Image Loader: Story, Architecture, FAQ"
+  },
+  {
+    "description": "Xcode dla rzeszy programistów iOS to codzienne narzędzie pracy. Wielu jednak nie zdaje sobie sprawy o potencjale drzemiącym w tym narzędziu. Na prezentacji zostanie pokazany szereg sposobów na przyspieszenie pracy z Xcode: od wykorzystania pluginów, poprzez ciekawe a czasami zabawne ukryte funkcje, pro skróty klawiaturowe, do tworzenia własnych szablonów projektów. Mam nadzieję, że każdy znajdzie w tej prezentacji coś dla siebie co przybliży go do osiągnięcia tytułu Xcode Ninja ;) [PL]",
+    "duration": 45,
+    "id": 28,
+    "roomId": 2,
+    "speakersId": [
+      23
+    ],
+    "startAt": "2016-10-22 14:30",
+    "title": "Tuningując Xcode"
+  },
+  {
+    "description": "Podczas prezentacji będziemy mieli okazję posłuchać o różnych podejściach do wyszukiwania zawartości na Androidzie. Z uwzględnieniem aplikacji, które pracują offline. Później więcej detali o SQLite i rozszerzeniu FTS3 i co można dzięki temu osiągnąć. [PL]",
+    "duration": 45,
+    "id": 29,
+    "roomId": 3,
+    "speakersId": [
+      15
+    ],
+    "startAt": "2016-10-22 14:30",
+    "title": "LIKE '%smth%' is not the way to go "
+  },
+  {
+    "description": "W ramach prezentacji pokazane zostanie jak w szybki sposób stworzyć od podstaw prostą grę na platformy mobilne korzystając z możliwości oferowanych przez Qt. Wykład będzie prowadzony na podstawie platformy Android, natomiast korzystając z wieloplatformowości oferowanej przez Qt, można go zrealizować na pozostałych wspieranych platformach takich jak iOS, SailfishOS, WinRT, Tizen. [PL]",
+    "duration": 45,
+    "id": 30,
+    "roomId": 4,
+    "speakersId": [
+      4
+    ],
+    "startAt": "2016-10-22 14:30",
+    "title": "Szybkie programowanie gier w Qt Quick"
+  },
+  {
+    "description": "Jak często masz świetny pomysł na aplikację ale nie znasz nikogo, kto może pomóc Ci stworzyć serwer dla projektu? Ile razy zdarzyło Ci się zrezygnować z niektórych funkcjonalności, bo nie nie wiedziałeś/nie wiedziałaś jak stworzyć komunikację serwerową, czy Push Notifications dla Twojej aplikacji? Czy zdarzyła Ci się sytuacja w której przy bardzo ograniczonym czasie musiałeś/musiałaś stworzyć aplikację mobilną komunikującą się z serwerem, jednak nie było czasu na to by zwoływać zespół backendowy by uzgadniać protokół sieciowy, komunikację, wymianę informacji ? Jeśli zdarzały Ci się takie sytuacje i chcesz uniknąć ich w przyszłości przyjdź i posłuchaj, jak w ciągu kilku minut i \"kliknięć\" stworzyć serwer dla Twojej aplikacji mobilnej. Wykład będzie oparty na tworzeniu aplikacji na system Android, ale prezentowane rozwiązanie współpracuje również z systemami iOS, OS X, Windows Phone etc. [PL]",
+    "duration": 45,
+    "id": 31,
+    "roomId": 5,
+    "speakersId": [
+      25
+    ],
+    "startAt": "2016-10-22 14:30",
+    "title": "Prosty serwer z Push Notifications dla aplikacji mobilnych bez umiejętności programowania po stronie serwera"
+  },
+  {
+    "duration": 15,
+    "id": 32,
+    "roomId": 0,
+    "startAt": "2016-10-22 15:15",
+    "title": "Coffee Break"
+  },
+  {
+    "description": "Chciałem zaprezentować kilkanaście praktycznych metod/hacków/wzorów które sprawią, że osoba nie interesująca się na co dzień UX, nie korzystająca z Photoshopa będzie w stanie tworzyć bardziej użyteczne i lepiej zaprojektowane aplikacje. Tylko praktyczne porady, często występujące problemy i rozwiązania które może zastosować praktycznie każdy developer iOS. (sam temat może ulec lekkiej zmianie), pomysł na prezentację dokładniej omówiłem z Rafałem Lenarczykiem. Ewentualnie mogę również ciekawie opowiedzieć o kwestii marketingu aplikacji mobilnych. Przykładowy tytuł takiej prezentacji mogłaby brzmieć - \"Marketing aplikacji na iOS - tips & tricks\" [EN]",
+    "duration": 45,
+    "id": 33,
+    "roomId": 1,
+    "speakersId": [
+      16
+    ],
+    "startAt": "2016-10-22 15:30",
+    "title": "Projektowanie aplikacji iOS - wzorce i triki które każdy programista wiedzieć powinien"
+  },
+  {
+    "description": "If you still believe, that your app is safe because it has been submitted to Apple's Appstore and protected with Apple's DRM - FairPlay, if you are still not worried about your code and app specific secrets, you should change your attitude. Have a sneak peak of ways to bundle app analysis and harden your app from reverse engineering and common security vulnerabilities. [EN]",
+    "duration": 45,
+    "id": 34,
+    "roomId": 2,
+    "speakersId": [
+      32
+    ],
+    "startAt": "2016-10-22 15:30",
+    "title": "Reverse Engineering in iOS"
+  },
+  {
+    "description": "Autor opowie o tym jak przez ostatnie lata wyglądała sytuacja w tworzeniu dużych projektów programistycznych. Przedstawi zmiany na rynku oraz spróbuje opowiedzieć na pytanie, co jest przyczyną takich zmian. Prezentacja skupi się na projektach tworzonych w środowiskach wolnego, otwartego oprogramowania. Następnie pokazany zostanie przykład takiej współpracy na przykładzie projektu kernel.org i wkładu Samsung R&D Institute Poland w tworzenie jądra linuksa. [PL]",
+    "duration": 45,
+    "id": 35,
+    "roomId": 3,
+    "speakersId": [
+      33
+    ],
+    "startAt": "2016-10-22 15:30",
+    "title": "Wielki projekt i wielka firma. Krótka opowieść o wolnym oprogramowaniu"
+  },
+  {
+    "description": "Nowe technologie wprowadziły zmiany społeczne porównywalne do rewolucji przemysłowej. To co je łączy to ogromny wpływ na styl życia. Jako konsumenci lubimy nowości, chcemy być stymulowani wynalazkami. Z drugiej strony rozwój technologii wprost wpływa na ludzi, którzy je wytwarzają. To, co różni współczesność od XIX wieku, to tempo zmian. To niezwykłe tempo daje wszystko, poza poczuciem bezpieczeństwa. Jak w takich realiach zrobić karierę? Jak kształtują się trendy rynku pracy IT? Na jakiego czarnego konia postawić? O tym opowie ekspert Pracuj.pl. [PL]",
+    "duration": 45,
+    "id": 36,
+    "roomId": 4,
+    "speakersId": [
+      30
+    ],
+    "startAt": "2016-10-22 15:30",
+    "title": "Quo vadis programisto? – rynek, kariera, osobista marka"
+  },
+  {
+    "description": "Niedawno Apple ogłosiło, że tworzy w USA własny system płatności mobilnych Apple Pay. W Polsce joint venture 6 banków (PKO BP + mBank + ING + BZWBK + Alior + Millenium) pracuje nad Polskim Standardem Płatności. Jako Seamless już 2 lata temu uruchomiliśmy nasz system płatności mobilnych SEQR. Początkowo była to Szwecja, obecnie jest to dodatkowo Finlandia, Belgia i Rumunia, a niedługo będą to inne kraje strefy Euro, UK oraz USA. Każdy walczy o kawałek tortu dla siebie, ponieważ według wróżbitów rynek płatności mobilnych powinien być wart w 2017 roku ok. 720 mld USD przy 450 mln użytkowników. Droga tam jednak nie jest taka różowa i oprócz walki z konkurencją wymaga przekonania ludzi, że lepiej płacić telefonem niż kartą. Prezentacja w sposób przekrojowy (techniczny, biznesowy, marketingowy i prawny) spojrzy na wyzwania, szanse i ryzyka jakie niosą ze sobą płatności mobilne z perspektywy gracza, który już kilka lat jest na tym rynku. [PL]",
+    "duration": 45,
+    "id": 37,
+    "roomId": 5,
+    "speakersId": [
+      20
+    ],
+    "startAt": "2016-10-22 15:30",
+    "title": "Płacisz nadal kartą lub gotówką, czy już telefonem?"
+  },
+  {
+    "duration": 15,
+    "id": 38,
+    "roomId": 0,
+    "startAt": "2016-10-22 16:15",
+    "title": "Coffee Break"
+  },
+  {
+    "description": "Wprowadzenie do technologii Augmented Reality (Rzeczywistości Rozszerzonej). Co to jest AR? Jakie są podstawowe obszary jej zastosowania? Co nowego może wnieść technologia AR w już używanych aplikacjach mobilnych wraz z prezentacją kilku własnych rozwiązań. W części developerskiej zostanie pokazane jak w kilka minut można stworzyć prostą aplikację AR wykorzystując środowisko Unity 3D oraz technologię Qualcomm Vuforia. Na koniec prezentacji kilkuminutowa sesja Q&A. [PL]",
+    "duration": 45,
+    "id": 39,
+    "roomId": 1,
+    "speakersId": [
+      2
+    ],
+    "startAt": "2016-10-22 16:30",
+    "title": "Wprowadzenie do Augmented Reality dla laików i dla developerów"
+  },
+  {
+    "description": "Web Components wiele osób kojarzy jedynie z Polymer, sytuacja, jak to zwykle bywa jest bardziej skomplikowana. Zaczynając od Mozilla Brick a kończąc na wykorzystaniu natywnych API wsparcie dla tych nadchodzących technologi wygląda coraz bardziej obiecująco. Jakie zmiany dla osób zajmujących się frontendem tak na prawdę niosą ze sobą komponenty? Chciałabym podzielić się moimi doświadczeniami z tą technologią, przykładami nietrywialnych zastosowań oraz korzyści płynących z jej użycia. [PL]",
+    "duration": 45,
+    "id": 40,
+    "roomId": 2,
+    "speakersId": [
+      18
+    ],
+    "startAt": "2016-10-22 16:30",
+    "title": "Web Components - Polymer ale nie tylko"
+  },
+  {
+    "description": "Mirror to nowe narzędzie, które pozwala zaoszczędzić godziny czasu w ciągu tygodnia, które programiści tracą na kompilacje i instalacje aplikacji. Dzięki niemu każda modyfikacja zasobów w projekcie jest widoczna na urządzeniu w kilka sekund - wystarczy zapisać plik. W trakcie prezentacji pokażę, jak korzystając z Mirror można szybko tworzyć prototypy UI, a nawet mocki. [PL]",
+    "duration": 45,
+    "id": 41,
+    "roomId": 3,
+    "speakersId": [
+      13
+    ],
+    "startAt": "2016-10-22 16:30",
+    "title": "Mirror - szybki development UI dla Androida"
+  },
+  {
+    "duration": 45,
+    "id": 42,
+    "roomId": 0,
+    "startAt": "2016-10-22 17:15",
+    "title": "Finally"
+  }
+]

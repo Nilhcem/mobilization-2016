@@ -1,5 +1,3 @@
 package com.nilhcem.mobilization.scraper.model.input
 
-data class Speaker(val id: String, val name: String, val surname: String, val company: String, val title: String?, val bio: String, val thumbnailUrl: String, val rockstar: Boolean?, val social: List<SocialLink>?)
-
-data class SocialLink(val name: String, val link: String)
+data class Speaker(val firstname: String, val lastname: String, val bio_html: String, val www: String, val twitter: String, val photo_url: String, val apiId: String?)

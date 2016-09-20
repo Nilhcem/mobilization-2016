@@ -1,7 +1,9 @@
 package com.nilhcem.mobilization.scraper.model
 
-import com.nilhcem.mobilization.scraper.model.input.ScheduleDay
-import com.nilhcem.mobilization.scraper.model.input.SocialLink
+import com.nilhcem.mobilization.scraper.model.input.Break
+import com.nilhcem.mobilization.scraper.model.input.ScheduleSlot
+import com.nilhcem.mobilization.scraper.model.input.Talk
+import com.nilhcem.mobilization.scraper.model.input.TimeSlot
 import com.nilhcem.mobilization.scraper.model.output.Room
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
@@ -9,7 +11,6 @@ import org.jsoup.safety.Whitelist
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.text.RegexOption.IGNORE_CASE
-import com.nilhcem.mobilization.scraper.model.input.Session as ApiSession
 import com.nilhcem.mobilization.scraper.model.input.Speaker as ApiSpeaker
 import com.nilhcem.mobilization.scraper.model.output.Session as AppSession
 import com.nilhcem.mobilization.scraper.model.output.Speaker as AppSpeaker
@@ -19,63 +20,46 @@ object Mapper {
     private val DATE_FORMAT = SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.US)
 
     fun convertSpeaker(id: Int, speaker: ApiSpeaker): AppSpeaker {
-        val name = "${speaker.name} ${speaker.surname}"
-        val title = listOfNotNull(speaker.title, speaker.company).joinToString(", ")
-        val photo = "https://droidcon.at/img/people/${speaker.thumbnailUrl}"
-        val bio = speaker.bio.parseHtml()
-        val twitterUrl = speaker.social?.filter { it.name == "twitter" }?.getLink()
-        val twitterHandler = getHandleFromUrl(twitterUrl)
-        val githubUrl = speaker.social?.filter { it.name == "github" }?.getLink()
-        val githubHandle = getHandleFromUrl(githubUrl)
-        val website = speaker.social?.filter { it.name != "twitter" && it.name != "github" }?.getLink()
-
-        return AppSpeaker(id + 1, name, title, photo, bio, website, twitterHandler, githubHandle)
+        val name = "${speaker.firstname} ${speaker.lastname}"
+        val photo = "http://2016.mobilization.pl${speaker.photo_url}"
+        val website = speaker.www.nullIfEmpty()
+        val twitter = speaker.twitter.nullIfEmpty()
+        return AppSpeaker(id + 1, name, null, photo, speaker.bio_html, website, twitter, null)
     }
 
-    fun convertSession(speakersMap: Map<String, AppSpeaker>, sessionsMap: Map<Int, ApiSession>, days: List<ScheduleDay>): List<AppSession> {
+    fun convertSessions(timeSlots: Map<String, TimeSlot>, talks: Map<String, Talk>, breaks: Map<String, Break>, scheduleSlots: Map<String, ScheduleSlot>, speakers: Map<String, AppSpeaker>): List<AppSession> {
         val sessions = mutableListOf<AppSession>()
 
-        days.forEach { day ->
-            val roomIds = day.tracks.map { Room.getRoomId(it.title) }
+        timeSlots.forEach { timeSlot ->
+            val scheduleSlot = scheduleSlots[timeSlot.key]!!
 
-            day.timeslots.forEach { time ->
-                val startAt = "${day.date} ${time.startTime}"
-                val dateFrom = DATE_FORMAT.parse(startAt)
-                val dateTo = DATE_FORMAT.parse("${day.date} ${time.endTime}")
-                val duration = ((dateTo.time - dateFrom.time) / 60000).toInt()
-
-                time.sessionIds.forEachIndexed { i, sessionId ->
-                    val roomId = roomIds[i]
-                    val session = sessionsMap[sessionId]
-
-                    if (session != null) {
-                        sessions.add(createSession(sessions.size, speakersMap, startAt, duration, roomId, session))
-                    }
+            if (scheduleSlot.breakKey != null) {
+                val `break` = breaks[scheduleSlot.breakKey]!!
+                sessions.add(createSession(sessions.size, `break`.title, `break`.description_html, null, Room.NONE, timeSlot.value))
+            } else {
+                scheduleSlot.talksKey!!.forEach { scheduleSlot ->
+                    val room = Room.getByApiId(scheduleSlot.key)
+                    val talk = talks[scheduleSlot.value]!!
+                    val description = "${talk.description_html} [${talk.language}]"
+                    val speakersIds = talk.speakers_keys.map { speakers[it]!!.id }
+                    sessions.add(createSession(sessions.size, talk.title, description, speakersIds, room, timeSlot.value))
                 }
             }
         }
-
         return sessions.toList()
     }
 
-    private fun createSession(id: Int, speakersMap: Map<String, AppSpeaker>, startAt: String, duration: Int, roomId: Int, session: ApiSession): AppSession {
-        val title = session.title.parseHtml()
-        val description = session.description?.parseHtml()
-        val speakersIds = session.speakers?.map { speakersMap[it]?.id }?.filterNotNull()
-        val room = if (session.service ?: false) Room.NONE.id else roomId
-        return AppSession(id + 1, title, description, speakersIds, startAt, duration, room)
+    private fun createSession(id: Int, title: String, summary: String, speakersIds: List<Int>?, room: Room, timeSlot: TimeSlot): AppSession {
+        val description = summary.nullIfEmpty()?.parseHtml()
+
+        val startAt = "2016-10-22 ${timeSlot.from.formatTime()}"
+        val dateFrom = DATE_FORMAT.parse(startAt)
+        val dateTo = DATE_FORMAT.parse("2016-10-22 ${timeSlot.to.formatTime()}")
+        val duration = ((dateTo.time - dateFrom.time) / 60000).toInt()
+        val roomId = room.id
+
+        return AppSession(id + 1, title, description, speakersIds, startAt, duration, roomId)
     }
-
-    private fun getHandleFromUrl(url: String?): String? {
-        if (url == null) {
-            return null
-        }
-
-        val urlWithoutLastSlash = if (url.last() == '/') url.substring(0, url.length - 1) else url
-        return urlWithoutLastSlash.substring(urlWithoutLastSlash.lastIndexOf("/") + 1)
-    }
-
-    private fun List<SocialLink>.getLink() = this.map { it.link }.firstOrNull()
 
     private fun String.parseHtml() = Jsoup.clean(this, "", Whitelist.basic(),
             Document.OutputSettings().prettyPrint(false))
@@ -91,4 +75,8 @@ object Mapper {
             .replace(Regex("</?strong>", IGNORE_CASE), "")
             .replace(Regex("</?em>", IGNORE_CASE), "")
             .replace(Regex("\\s*\n\\s*"), "\n").replace(Regex("^\n"), "").replace(Regex("\n$"), "")
+
+    private fun String.nullIfEmpty() = with(trim()) { if (isEmpty()) null else this }
+
+    private fun String.formatTime() = if (length == 4) "0$this" else this
 }

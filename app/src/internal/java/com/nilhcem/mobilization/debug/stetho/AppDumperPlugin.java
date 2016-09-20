@@ -31,6 +31,7 @@ import com.squareup.moshi.Moshi;
 
 import org.threeten.bp.format.DateTimeFormatter;
 
+import java.io.IOException;
 import java.io.PrintStream;
 import java.lang.reflect.Field;
 import java.util.List;
@@ -147,6 +148,8 @@ public class AppDumperPlugin implements DumperPlugin {
 
     private void displayCurrentSessionData(PrintStream writer) {
         Activity activity = activityProvider.getCurrentActivity();
+
+        JsonWriter jsonWriter = null;
         if (activity instanceof SessionDetailsActivity) {
             try {
                 // Use reflection to access private "session" field
@@ -156,7 +159,7 @@ public class AppDumperPlugin implements DumperPlugin {
 
                 // Convert sessions to a human readable json
                 Buffer buffer = new Buffer();
-                JsonWriter jsonWriter = JsonWriter.of(buffer);
+                jsonWriter = JsonWriter.of(buffer);
                 jsonWriter.setIndent("  ");
                 moshi.adapter(Session.class).toJson(jsonWriter, session);
                 String sessionJson = buffer.readUtf8();
@@ -164,6 +167,14 @@ public class AppDumperPlugin implements DumperPlugin {
                 writer.println(sessionJson);
             } catch (Exception e) {
                 writer.println(e.getMessage());
+            } finally {
+                if (jsonWriter != null) {
+                    try {
+                        jsonWriter.close();
+                    } catch (IOException e) {
+                        // Do nothing.
+                    }
+                }
             }
         } else {
             writer.println("SessionDetailsActivity not visible");

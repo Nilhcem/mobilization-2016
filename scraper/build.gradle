@@ -7,7 +7,7 @@ apply plugin: 'application'
 mainClassName = 'com.nilhcem.mobilization.scraper.AppKt'
 
 buildscript {
-    ext.kotlin_version = '1.0.3'
+    ext.kotlin_version = '1.0.4'
     repositories {
         mavenCentral()
     }

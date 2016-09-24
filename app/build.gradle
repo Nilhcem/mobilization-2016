@@ -102,7 +102,7 @@ android {
 }
 
 ext.butterknifeVersion = '8.4.0'
-ext.daggerVersion = '2.6.1'
+ext.daggerVersion = '2.7'
 ext.fragmentargsVersion = '3.0.2'
 ext.icepickVersion = '3.2.0'
 ext.intentbuilderVersion = '0.14.0'

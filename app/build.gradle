@@ -140,7 +140,7 @@ dependencies {
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.2.0'
 
-    compile 'com.jakewharton.timber:timber:4.3.0'
+    compile 'com.jakewharton.timber:timber:4.3.1'
     compile 'com.squareup.moshi:moshi:1.2.0'
 
     compile "com.jakewharton:butterknife:$butterknifeVersion"

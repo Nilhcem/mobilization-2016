@@ -162,7 +162,7 @@ dependencies {
     compile 'com.jakewharton.threetenabp:threetenabp:1.0.4'
 
     internalCompile 'jp.wasabeef:takt:1.0.3'
-    internalCompile 'com.jakewharton:process-phoenix:1.0.2'
+    internalCompile 'com.jakewharton:process-phoenix:1.1.0'
     internalCompile "com.facebook.stetho:stetho:$stethoVersion"
     internalCompile("com.facebook.stetho:stetho-okhttp3:$stethoVersion") {
         exclude group: 'com.squareup.okhttp3'

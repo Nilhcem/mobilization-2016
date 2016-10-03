@@ -100,7 +100,7 @@ public class AppDumperPlugin implements DumperPlugin {
         sessionsDao.getSessions()
                 .flatMap(Observable::from)
                 .map(session -> {
-                    Intent intent = new ReminderReceiverIntentBuilder(session).build(context);
+                    Intent intent = new ReminderReceiverIntentBuilder(session.getId()).build(context);
                     PendingIntent broadcast = PendingIntent.getBroadcast(context, session.getId(), intent, PendingIntent.FLAG_NO_CREATE);
                     if (broadcast != null) {
                         return String.format(Locale.US, "%s - Session(id=%d, title=%s)", session.getFromTime().format(DateTimeFormatter.ISO_DATE_TIME), session.getId(), session.getTitle());
@@ -215,7 +215,7 @@ public class AppDumperPlugin implements DumperPlugin {
                 .filter(session -> session.getSpeakers() != null)
                 .first()
                 .subscribe(session -> {
-                    Intent intent = new ReminderReceiverIntentBuilder(session).build(context);
+                    Intent intent = new ReminderReceiverIntentBuilder(session.getId()).build(context);
                     new ReminderReceiver().onReceive(context, intent);
                 });
     }

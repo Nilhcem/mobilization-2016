@@ -11,14 +11,18 @@ import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.NotificationCompat;
 import android.text.TextUtils;
 
+import com.nilhcem.mobilization.MobilizationApp;
 import com.nilhcem.mobilization.R;
 import com.nilhcem.mobilization.data.app.model.Session;
+import com.nilhcem.mobilization.data.database.dao.SessionsDao;
 import com.nilhcem.mobilization.ui.sessions.details.SessionDetailsActivity;
 import com.nilhcem.mobilization.ui.sessions.details.SessionDetailsActivityIntentBuilder;
 import com.nilhcem.mobilization.utils.App;
 import com.nilhcem.mobilization.utils.Downloader;
-import com.nilhcem.mobilization.utils.Preconditions;
 
+import javax.inject.Inject;
+
+import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 import se.emilsjolander.intentbuilder.Extra;
 import se.emilsjolander.intentbuilder.IntentBuilder;
@@ -27,14 +31,26 @@ import timber.log.Timber;
 @IntentBuilder
 public class ReminderReceiver extends BroadcastReceiver {
 
-    @Extra Session session;
+    @Extra Integer sessionId;
+    @Inject SessionsDao sessionsDao;
 
     @Override
     public void onReceive(Context context, Intent intent) {
         Timber.d("Received session reminder");
+        MobilizationApp.get(context).component().inject(this);
         ReminderReceiverIntentBuilder.inject(intent, this);
-        Preconditions.checkArgument(session != null);
-        showNotification(context, session);
+        if (sessionId == null) {
+            Timber.e("Can't find sessionId. This should not happen");
+            return;
+        }
+
+        sessionsDao.getSessionById(sessionId)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(
+                        session -> showNotification(context, session),
+                        throwable -> Timber.e(throwable, "Error finding session with id: %d", sessionId)
+                );
     }
 
     private void showNotification(Context context, Session session) {

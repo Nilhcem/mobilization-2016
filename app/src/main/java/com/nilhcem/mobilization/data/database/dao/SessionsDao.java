@@ -46,6 +46,10 @@ public class SessionsDao {
         return getSessions("SELECT * FROM " + Session.TABLE);
     }
 
+    public Observable<com.nilhcem.mobilization.data.app.model.Session> getSessionById(int id) {
+        return getSessions("SELECT * FROM " + Session.TABLE + " WHERE " + Session.ID + "=?", Integer.toString(id)).flatMap(Observable::from).first();
+    }
+
     public Observable<List<com.nilhcem.mobilization.data.app.model.Session>> getSelectedSessions() {
         String query = String.format(Locale.US, "SELECT %s.* FROM %s INNER JOIN %s ON %s.%s=%s.%s",
                 Session.TABLE, Session.TABLE, SelectedSession.TABLE, Session.TABLE, Session.ID, SelectedSession.TABLE, SelectedSession.SESSION_ID);

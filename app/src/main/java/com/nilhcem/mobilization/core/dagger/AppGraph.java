@@ -1,6 +1,7 @@
 package com.nilhcem.mobilization.core.dagger;
 
 import com.nilhcem.mobilization.receiver.BootReceiver;
+import com.nilhcem.mobilization.receiver.reminder.ReminderReceiver;
 import com.nilhcem.mobilization.ui.drawer.DrawerActivity;
 import com.nilhcem.mobilization.ui.schedule.day.ScheduleDayFragment;
 import com.nilhcem.mobilization.ui.schedule.pager.SchedulePagerFragment;
@@ -32,4 +33,6 @@ public interface AppGraph {
     void inject(SettingsFragment fragment);
 
     void inject(BootReceiver receiver);
+
+    void inject(ReminderReceiver receiver);
 }

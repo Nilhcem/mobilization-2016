@@ -86,7 +86,14 @@ public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> 
         for (ScheduleDay day : schedule) {
             if (day.getDay().equals(LocalDate.now())) {
                 final int index = idx;
-                viewPager.post(() -> viewPager.setCurrentItem(index, false));
+                final ViewPager pager = viewPager;
+                if (pager != null) {
+                    pager.post(() -> {
+                        if (isVisible() && pager.getCurrentItem() != index) {
+                            pager.setCurrentItem(index, false);
+                        }
+                    });
+                }
                 return;
             }
             idx++;

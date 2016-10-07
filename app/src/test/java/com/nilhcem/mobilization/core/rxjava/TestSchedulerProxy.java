@@ -1,11 +1,8 @@
 package com.nilhcem.mobilization.core.rxjava;
 
-
 import java.util.concurrent.TimeUnit;
 
-import rx.Scheduler;
-import rx.plugins.RxJavaPlugins;
-import rx.plugins.RxJavaSchedulersHook;
+import rx.plugins.RxJavaHooks;
 import rx.schedulers.TestScheduler;
 
 public class TestSchedulerProxy {
@@ -15,22 +12,9 @@ public class TestSchedulerProxy {
 
     static {
         try {
-            RxJavaPlugins.getInstance().registerSchedulersHook(new RxJavaSchedulersHook() {
-                @Override
-                public Scheduler getIOScheduler() {
-                    return SCHEDULER;
-                }
-
-                @Override
-                public Scheduler getComputationScheduler() {
-                    return SCHEDULER;
-                }
-
-                @Override
-                public Scheduler getNewThreadScheduler() {
-                    return SCHEDULER;
-                }
-            });
+            RxJavaHooks.setOnIOScheduler(current -> SCHEDULER);
+            RxJavaHooks.setOnComputationScheduler(current -> SCHEDULER);
+            RxJavaHooks.setOnNewThreadScheduler(current -> SCHEDULER);
         } catch (IllegalStateException e) {
             throw new IllegalStateException("Schedulers class already initialized. " +
                     "Ensure you always use the TestSchedulerProxy in unit tests.", e);

@@ -10,7 +10,7 @@ import com.nilhcem.mobilization.data.network.model.Speaker;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.robolectric.RobolectricGradleTestRunner;
+import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 import org.threeten.bp.LocalDateTime;
 
@@ -22,7 +22,7 @@ import java.util.Map;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.Collections.singletonList;
 
-@RunWith(RobolectricGradleTestRunner.class)
+@RunWith(RobolectricTestRunner.class)
 @Config(constants = BuildConfig.class, sdk = Build.VERSION_CODES.LOLLIPOP)
 public class NetworkMapperTest {
 

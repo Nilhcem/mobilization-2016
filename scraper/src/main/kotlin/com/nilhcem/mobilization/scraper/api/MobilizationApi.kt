@@ -11,7 +11,7 @@ import retrofit2.http.GET
 interface MobilizationApi {
 
     companion object {
-        private val ENDPOINT = "http://2016.mobilization.pl/api-demo/"
+        private val ENDPOINT = "http://2016.mobilization.pl/api/"
 
         val MOSHI = Moshi.Builder()
                 .add(ScheduleSlotAdapter())

@@ -22,8 +22,8 @@ object Mapper {
     fun convertSpeaker(id: Int, speaker: ApiSpeaker): AppSpeaker {
         val name = "${speaker.firstname} ${speaker.lastname}"
         val photo = "http://2016.mobilization.pl${speaker.photo_url}"
-        val website = speaker.www.nullIfEmpty()
-        val twitter = speaker.twitter.nullIfEmpty()
+        val website = speaker.www?.nullIfEmpty()
+        val twitter = speaker.twitter?.nullIfEmpty()
         return AppSpeaker(id + 1, name, null, photo, speaker.bio_html, website, twitter, null)
     }
 
@@ -40,9 +40,10 @@ object Mapper {
                 scheduleSlot.talksKey!!.forEach { scheduleSlot ->
                     val room = Room.getByApiId(scheduleSlot.key)
                     val talk = talks[scheduleSlot.value]!!
-                    val description = "${talk.description_html} [${talk.language}]"
+                    val title = if ("EN" == talk.language.toUpperCase(Locale.US)) talk.title else "${talk.title} [${talk.language}]"
+                    val description = talk.description_html
                     val speakersIds = talk.speakers_keys.map { speakers[it]!!.id }
-                    sessions.add(createSession(sessions.size, talk.title, description, speakersIds, room, timeSlot.value))
+                    sessions.add(createSession(sessions.size, title, description, speakersIds, room, timeSlot.value))
                 }
             }
         }

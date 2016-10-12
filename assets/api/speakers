@@ -1,206 +1,258 @@
 [
   {
-    "bio": "Maciej is a passionate developer, but also a conference wanderer - during the last year, he spent more time listening (and sometimes speaking) to people during various conferences and meetups on topics mostly related to mobile and Java Eee, than sitting and coding behind his desk. He likes open source. Last year he worked at lot with the new Android API for maps, which resulted in the birth of a small library called Android Maps Extensions. This year he is working on Hrisey, a new kind of anti-boilerplate tool. When he's not programming, Maciej avoids computers and prefers to bike.",
+    "bio": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
     "id": 1,
-    "name": "Maciej Górski",
-    "photo": "http://2016.mobilization.pl/images/speakers/maciej-gorski.jpg"
+    "name": "Jens Ravens",
+    "photo": "http://2016.mobilization.pl/images/speakers/jens-ravens.jpg",
+    "twitter": "https://twitter.com/jensravens",
+    "website": "http://jensravens.com/"
   },
   {
-    "bio": "Zapalony programista, grafik, freelancer, miłośnik nowoczesnych technologii, w skrócie: informatyczny człowiek orkiestra. Od kilku lat specjalizuje się w technologii Augmented Reality (Rzeczywistości Rozszerzonej) oraz tworzy użytkowe i rozrywkowe aplikacje mobilne. Od 2007 roku prowadzi firmę MASKOM.pl świadczącą zaawansowane rozwiązania informatyczne dla biznesu. W swoim portfolio posiada realizacje m.in. dla sieci ROSSMANN, RTV Euro AGD, PKP S.A. czy klubów żużlowych Falubaz Zielona Góra i Unia Leszno.",
+    "bio": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
     "id": 2,
-    "name": "Maciej Schmidt",
-    "photo": "http://2016.mobilization.pl/images/speakers/maciej-schmidt.jpg"
+    "name": "Pedro Piñera Buendía",
+    "photo": "http://2016.mobilization.pl/images/speakers/pedro-buendia.jpeg",
+    "twitter": "https://twitter.com/pepibumur",
+    "website": "http://www.ppinera.es/"
   },
   {
-    "bio": "Cesare Rocchi is a speaker, writer, UX designer and developer specializing in web and mobile applications. He began working on interactive applications while he was a researcher in the academia. He runs Studio Magnolia, an interactive studio that creates compelling web and mobile applications. You can find him on Twitter (@_funkyboy). When off duty he enjoys snowboard and beach tennis.",
+    "bio": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
     "id": 3,
-    "name": "Cesare Rocchi",
-    "photo": "http://2016.mobilization.pl/images/speakers/cesare-rocchi.jpg"
+    "name": "Konstantin Raev",
+    "photo": "http://2016.mobilization.pl/images/speakers/konstantin-raev.jpeg",
+    "twitter": "https://twitter.com/bestander_nz"
   },
   {
-    "bio": "Witold Wysota na codzień pracuje jako inżynier oprogramowania oraz prowadzi zajęcia z Qt na Politechnice Warszawskiej. Od 10 lat aktywnie związany z Qt jako autor artykułów, recenzent książek oraz współzałożyciel,  współadministrator oraz główny gaduła na Qt Centre - forum, gdzie programiści przychodzą po pomoc w tematach związanych z tym narzędziem programistycznym. Uczestnik krajowych i międzynarodowych konferencji naukowych i technicznych. W zeszłym roku na Mobilization poprowadził wykład \"Qt - programowanie mobilne bez nadgodzin\".",
+    "bio": "Gautier is an aspiring Software Craftsman in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
     "id": 4,
-    "name": "Witold Wysota",
-    "photo": "http://2016.mobilization.pl/images/speakers/witold-wysota.jpg"
+    "name": "Gautier Mechling",
+    "photo": "http://2016.mobilization.pl/images/speakers/gautier-mechling.jpeg",
+    "twitter": "https://twitter.com/Nilhcem"
   },
   {
-    "bio": "A C/C++ developer who specializes in OpenGL and OpenGL ES APIs. Dominik is Mobica's technical representative at Khronos OpenGL ES. Working Group, who has contributed to both OpenGL and OpenGL ES specifications over the course of the last two years. He has also worked on a number of different OpenGL ES extensions (incl. the ones that have made it into the recently released Android Extension Pack).",
+    "bio": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
     "id": 5,
-    "name": "Dominik Witczak",
-    "photo": "http://2016.mobilization.pl/images/speakers/dominik-witczak.jpg"
+    "name": "Nicola Zaghini",
+    "photo": "http://2016.mobilization.pl/images/speakers/nicola-zaghini.jpeg",
+    "twitter": "https://twitter.com/nzaghini"
   },
   {
-    "bio": "Od wielu lat programista .NET. Obecnie konsultant, trener, architekt na co dzień pracujący w Microsoft Polska. Zajmuje się szkoleniem i wspieraniem zespołów technicznych oraz wdrożeniami nowych technologii deweloperskich. Odpowiada przede wszystkim za projekty tworzone wspólnie z największymi w Polsce serwisami internetowymi, operatorami telefonii oraz bankami. Prelegent polskich i zagranicznych konferencji technicznych. W wolnych chwilach pasjonuje się fotografią, grafiką komputerową, żeglarstwem i montowaniem różnego rodzaju sprzętu audio.",
+    "bio": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
     "id": 6,
-    "name": "Bartłomiej Zass",
-    "photo": "http://2016.mobilization.pl/images/speakers/bartlomiej-zass.jpg"
+    "name": "Roberto Orgiu",
+    "photo": "http://2016.mobilization.pl/images/speakers/roberto-orgiu.jpeg",
+    "twitter": "https://github.com/tiwiz"
   },
   {
-    "bio": "Kapral Waliński już w bardzo młodym wieku zaczął ponadnormatywnie interesować się komputerami, co poskutkowało wcieleniem go w szeregi Politechniki Łódzkiej, gdy tylko uzyskał pełnoletność. W swojej karierze miał okazję walczyć za pomocą zróżnicowanego oręża (np. Java, PHP, ASP.NET/C#, C++, Python), na wielu polach bitew (od startupu, przez SME, aż po korpo-świat). Obecnie najczęściej stosuje najpopularniejszy na świecie wielozadaniowy karabin szturmowy o nazwie JavaScript, z pomocą którego podbija zarówno Internety jak i Smartfony. Ostatnio otrzymał powołanie do służby w łódzkim batalionie Centrum Systemów Informatycznych ABB. W wolnym czasie kapral Waliński jeździ na rowerze i słucha audiobooków.",
+    "bio": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
     "id": 7,
-    "name": "Jakub Waliński",
-    "photo": "http://2016.mobilization.pl/images/speakers/jakub-walinski.jpg"
+    "name": "Eric Kok",
+    "photo": "http://2016.mobilization.pl/images/speakers/eric-kok.jpeg",
+    "twitter": "https://twitter.com/erickoknl"
   },
   {
-    "bio": "Since 8 years I work for TomTom. At TomTom I am the Fellow Navigation, the highest level in the technical career ladder and a discretionary appointment by the TomTom management board. I contributed to TomTom’s unique product portfolio in different technical and management roles. I am now responsible for one of TomTom’s core navigation products: NavKit, the navigation engine software, used by over 80 million customers and driven over 300 billion kilometers by our customers. Before TomTom, as an entrepreneur, I co-founded a start-up company that I ran successfully for 6 years and sold in 1995. Our main product was an online shop system for bookstores, a very innovative idea at a time when the Internet age had not started yet. I also worked for 2 start-up companies at the peak time of the dot-com boom. At university I successfully completed 3 degrees (PhD, MSc, BA) and contributed to a range of optimization solutions in the transportation industry that saved money and/or time. Currently I do a part-time EMBA course at Cambridge University, UK.",
+    "bio": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh.",
     "id": 8,
-    "name": "Heiko Schilling",
-    "photo": "http://2016.mobilization.pl/images/speakers/heiko-schilling.png"
+    "name": "Dan Cuellar",
+    "photo": "http://2016.mobilization.pl/images/speakers/dan-cuellar.jpeg",
+    "twitter": "https://twitter.com/thedancuellar"
   },
   {
-    "bio": "Doświadczony programista, designer, (prawie)grafik i ewangelista Microsoftu (jakimś cudem tak zawsze wychodzi). Don Corleone w KODD.pl (software house) oraz Dessigne.com (design house), w których projektuje i implementuje wyborne oprogramowanie. Od zawsze związany z technologiami .NETowymi stworzył m.in. Verbalize, Proto, 9GAG.com dla Windows Phone oraz współtworzył FreeMetera. Papierki poświadczające, że naprawdę coś umie, a nie tylko lans: MS Technology Specialist (Siliverlight 4), Programming in C# Specialist, Certified Scrum Master, Nokia Certified Developer Trainer (Windows Phone) oraz LTE DVD USB LE 3.1.",
+    "bio": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
     "id": 9,
-    "name": "Mieszko Lassota",
-    "photo": "http://2016.mobilization.pl/images/speakers/mieszko-lassota.jpg"
+    "name": "Roman Mazur",
+    "photo": "http://2016.mobilization.pl/images/speakers/roman-mazur.jpeg",
+    "twitter": "https://twitter.com/roman_mazur",
+    "website": "https://www.stanfy.com/"
   },
   {
-    "bio": "Konsultant bezpieczeństwa IT z ponad 10-letnim doświadczeniem. Uczestniczył w dziesiątkach projektów z zakresu oceny bezpieczeństwa systemów informatycznych i aplikacji (w tym wielu mobilnych) - dla wiodących firm z sektora finansowego, branży internetowej, instytucji publicznych. Aktualnie coraz częściej doradza bezpieczne rozwiązania dla różnego typu aplikacji już od etapu projektowania. Od 9 lat związany zawodowo z firmą SecuRing.",
+    "bio": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
     "id": 10,
-    "name": "Sławomir Jasek",
-    "photo": "http://2016.mobilization.pl/images/speakers/slawomir-jasek.jpg"
+    "name": "Markus Junginger",
+    "photo": "http://2016.mobilization.pl/images/speakers/markus-junginger.jpeg",
+    "twitter": "https://twitter.com/greenrobot_de"
   },
   {
-    "bio": "Konrad jest front-end developerem w Making Waves Polska, ekspertem, w ramach programu Google Developer Experts, z zakresu przeglądarki Chrome oraz współorganizatorem krakowskiego Google Developers Group. W Making Waves zajmuje sie, od półtora roku, aplikacjami hybrydowymi. Po godzinach rozwija rozszerzenia do przeglądarki Chrome, eksperymentuje z rozmaitymi technologiami front-end'owymi, prowadzi warsztaty i prezentacje.",
+    "bio": "Madis is currently working on JRebel for Android at ZeroTurnaround. He started hacking on Android apps on a T-Mobile G1 more than 7 years ago and quickly grew a particular interest in build systems and developer tooling. His previous experience includes working on the Android Platform team at Spotify and producing multiple apps at Mobi Lab. During his free time he likes to dabble around with guitars and home recording.",
     "id": 11,
-    "name": "Konrad Dzwinel",
-    "photo": "http://2016.mobilization.pl/images/speakers/konrad-dzwinel.jpg"
+    "name": "Madis Pink",
+    "photo": "http://2016.mobilization.pl/images/speakers/madis-pink.jpeg",
+    "twitter": "https://twitter.com/madisp"
   },
   {
-    "bio": "Programistka systemów wbudowanych. Jako Technical Domain Leader odpowiedzialna jest za wszelkie rozwiązania embedded w Cybercom Poland.  Zawodowo programuje od 15 lat przeważnie systemy na rdzeniach Cortex-M plus rozwiązania Real Time. Projektantka cyfrowych układów elektronicznych. Absolwentka wydziału Elektronicznego Politechniki Wrocławskiej. Od pewnego czasu zafascynowana „Lean product development”. Lubi twórczo podejść do każdego problemu – gdyż nie zawsze utarte ścieżki powadzą do optymalnego osiągniecia celu.",
+    "bio": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @AprendiendoTDD and @theEvnt facilitating coding dojos, katas and other stuff.",
     "id": 12,
-    "name": "Ola Gatner",
-    "photo": "http://2016.mobilization.pl/images/speakers/ola-gatner.jpg"
+    "name": "Pablo Guardiola",
+    "photo": "http://2016.mobilization.pl/images/speakers/pablo-guardiola.jpeg",
+    "twitter": "https://twitter.com/guardiola31337",
+    "website": "http://pguardiola.com/"
   },
   {
-    "bio": "Sylwester Madej jest doświadczonym programistą Android oraz trenerem. No co dzień pełni rolę Head of Development w firmie Outline - mobilnym development house, specjalizującym się w Androidzie. Po godzinach prowadzi bloga soldiersofmobile.com i kanał YouTube, aby dzielić się swoją wiedzą. Stara się wpływać na jakość aplikacji Android przez edukację studentów na Politechnice Warszawskiej. Aktywnie udziela się w imprezach MobileWarsaw i Warsjawa. Pragmatyczny programista, fan TDD i dobrych narzędzi programistycznych.",
+    "bio": "Jorge Castillo is a spanish experienced Android developer currently working as an Android Engineer at Jobandtalent, an important International product company from Madrid. Its main work is focused on Open Source projects.",
     "id": 13,
-    "name": "Sylwester Madej",
-    "photo": "http://2016.mobilization.pl/images/speakers/sylwester-madej.jpg"
+    "name": "Jorge Castillo",
+    "photo": "http://2016.mobilization.pl/images/speakers/jorge-castillo.jpeg",
+    "twitter": "https://twitter.com/JorgeCastilloPr",
+    "website": "http://jorgecastillo.xyz/"
   },
   {
-    "bio": "Programuje od 8 roku życia, od 5 lat na iOS. Pracowałem nad szerokim zakresem aplikacji od typowo biznesowych po rozrywkę i gry, przez 1.5 roku mieszkałem w Londynie gdzie kierowałem dużym zespołem programistów (10+), między innymi całkowicie zmieniając flotę mobilnych aplikacji News International. Oprócz tego prowadzę bloga merowing.info oraz tworzę swoje własne aplikacje takie jak Foldify http://foldifyapp.com czy Bord http://bord.pixle.pl.",
+    "bio": "Android Developer since 5 years ago. I worked with Bank apps in Spain for three years. Later I moved to Ireland to work with apps of Airlines and GSM carriers. Actually I'm living in Thailand working for Agoda. I'm Google Developer Expert and I enjoy being involve with the android community.",
     "id": 14,
-    "name": "Krzysztof Zabłocki",
-    "photo": "http://2016.mobilization.pl/images/speakers/krzysztof-zablocki.jpeg"
+    "name": "Inaki Villar",
+    "photo": "http://2016.mobilization.pl/images/speakers/inaki-villar.jpeg",
+    "twitter": "https://twitter.com/inyaki_mwc"
   },
   {
-    "bio": "Mateusz works as an Android Developer at Base CRM where he tries to make enterprise software users 10 times more productive. In his free time he still often chooses to stay in the IT world and he is organizing some community events - like KrakDroid conference or GDG Kraków meetups.",
+    "bio": "Enrique López-Mañas is a Google Developer Expert and independent IT consultor. He has been working with mobile technologies and learning from then since 2007.  He is an avid contributor to the Open Source community and a FLOSS (Free Libre Open Source Software) kind of guy, being among the top 10 Open Source Java Contributors in Germany. He is a part of the Google LaunchPad accelerator, where he participates in Google global initiatives to influence over hundreds of the best startups from all around the globe. He is also a Big Data and Machine Learning aficionado. On his free time he rides his bike, take pictures and travel until extenuation. He also writes literature and enjoys all kind of arts. He also likes to write about himself in third person.",
     "id": 15,
-    "name": "Mateusz Herych",
-    "photo": "http://2016.mobilization.pl/images/speakers/mateusz-herych.jpg"
+    "name": "Enrique López Mañas",
+    "photo": "http://2016.mobilization.pl/images/speakers/enrique-manas.jpeg",
+    "twitter": "https://twitter.com/eenriquelopez",
+    "website": "http://www.lopez-manas.com/"
   },
   {
-    "bio": "Co-founder of Listonic, one of the most popular Polish apps, available on Android, iPhone, Windows Phone and few other platforms. Working on mobile apps since 2007. Speaker on many conferences including: Internet Beta, Mobile Standard, Mobile Trends for Business, Akademia Mediarun, App Academy, Jungle Web, Łódź WiOSłuje, MIT and more.",
+    "bio": "Hugo is a software engineer who has worked on enterprise, desktop and mobile software products. Since the introduction of Android he has been steadily focussing on developing for Android only, resulting in his first app in 2009. Hugo has released several open source libraries and tools to help him and other developers build better software. He’s a Google Developer Expert for Android and one of the organizers of the Dutch Android User Group. With his company Little Robots, he focuses on smart use of Android in every possible way.",
     "id": 16,
-    "name": "Filip Miłoszewski",
-    "photo": "http://2016.mobilization.pl/images/speakers/filip-miloszewski.jpg"
+    "name": "Hugo Visser",
+    "photo": "http://2016.mobilization.pl/images/speakers/hugo-visser.jpeg",
+    "twitter": "https://twitter.com/botteaap",
+    "website": "http://littlerobots.nl/"
   },
   {
-    "bio": "Polidea Android Developer. Warsaw GDG Organizer. Developer of 12Hours Android widget.",
+    "bio": "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
     "id": 17,
-    "name": "Michał Tajchert",
-    "photo": "http://2016.mobilization.pl/images/speakers/michal-tajchert.jpg"
+    "name": "Saúl Díaz",
+    "photo": "http://2016.mobilization.pl/images/speakers/saul-diaz.jpeg",
+    "twitter": "https://twitter.com/sefford"
   },
   {
-    "bio": "Z programowaniem webowym jestem zawodowo związana ponad 9 lat. W miarę rozwoju możliwości przeglądarek z dedykowanych rozwiązań serwerowych zmieniłam moją specializację na tworzenie stanowych aplikacji w JavaScript. W ciągu ostatnich lat miałam szczeście do projektów na granicy możliwości technologicznych HTML5 co dało mi ciekawe doświadczenie w tym polu. Jestem zafascynowana możliwościami jakie dają nowe Web Components API oraz specyfikacja HTML 5.1. Jako prelegent brałam udział w jednej z poprzednich edycji Mobilization, Google DevFest oraz drugi rok z rzędu organizowałam Google I/O Extended Łódź.",
+    "bio": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his <a href='http://www.pacoworks.com'>blog</a>, or his <a href='https://github.com/pakoito'>libraries</a>",
     "id": 18,
-    "name": "Lena Rodziewicz",
-    "photo": "http://2016.mobilization.pl/images/speakers/lena-rodziewicz.jpg"
+    "name": "Francisco Estevez",
+    "photo": "http://2016.mobilization.pl/images/speakers/francisco-estevez.jpeg",
+    "website": "http://www.pacoworks.com"
   },
   {
-    "bio": "Piotr Krawiec is Technology Evangelist at Estimote, Inc. He works with community of over 20 000 developers worldwide inspiring them and helping them deliver cutting-edge beacon enabled solutions.",
+    "bio": "Frederik is a young computer science student from Germany who's chief interest is creating and inventing new stuff. He currently works as an Android Developer at trivago. Besides writing code he loves jumping out of airplanes and to go skiing.",
     "id": 19,
-    "name": "Piotr Krawiec",
-    "photo": "http://2016.mobilization.pl/images/speakers/piotr-krawiec.png"
+    "name": "Frederik Schweiger",
+    "photo": "http://2016.mobilization.pl/images/speakers/frederik-schweiger.jpeg"
   },
   {
-    "bio": "Engineering Team Lead @ Seamless, IT Coach @ Sages, Professional Scrum Master / Professional Scrum Product Owner, student 'MBA dla IT' na Akademii Leona Koźmińskiego.",
+    "bio": "Creator of PhoneNumberKit, Interpolate and Localize.",
     "id": 20,
-    "name": "Tomek Pająk",
-    "photo": "http://2016.mobilization.pl/images/speakers/tomek-pajak.jpg"
+    "name": "Roy Marmelstein",
+    "photo": "http://2016.mobilization.pl/images/speakers/roy-marmelstein.jpeg",
+    "twitter": "https://twitter.com/marmelroy",
+    "website": "http://marmelroy.github.io/"
   },
   {
-    "bio": "Projektantka interfejsów, fanka użyteczności i miłośniczka prostoty. Absolwentka informatyki (spec. Grafika Komputerowa i Multimedia) na Politechnice Łódzkiej, od 2012 r. UI/UX Designer w firmie Mobica. Zajmuje się projektowaniem na szeroko pojęte urządzenia mobilne, dobrze zapoznana z procesem projektowym i jego kolejnymi etapami. Uczestniczka i prelegentka na łódzkich spotkaniach społeczności Geek Girls Carrots, jedna z \"ojców założycieli\" inicjatywy propagującej user experience w Łodzi. Fanka Androida, ale nie stroni od iOSa. Uczulona na Comic Sansa. W wolnych chwilach realizuje projekty DIY.",
+    "bio": "iOS Developer for over 5 years. Big proponent of OSS and head organizer of CocoaHeads Costa Rica.",
     "id": 21,
-    "name": "Anna Maria Sperka",
-    "photo": "http://2016.mobilization.pl/images/speakers/anna-sperka.png"
+    "name": "Esteban Torres",
+    "photo": "http://2016.mobilization.pl/images/speakers/esteban-torres.png",
+    "twitter": "https://twitter.com/esttorhe",
+    "website": "http://estebantorr.es"
   },
   {
-    "bio": "Kamil Grondys, który od ponad 5 lat pracuje w Samsung R&amp;D Institute Poland, na codzień kieruje pracą zespołu odpowiedzialnego za tworzenie artykułów technicznych i przykładowych aplikacji na stronę Tizen Developers, a także tworzy aplikacje na najnowsze urządzenia Samsung (m.in. Gear 2 i Gear S) dla Samsung Galaxy Store. Jako prelegent miał okazję sprawdzić się na ponad 20 międzynarodowych konferencjach w 15 krajach.",
+    "bio": "Kostiantyn Koval is in Love with Swift. He is a contributor to Swift open source, a Swift High Performance book author and just a person who loves to type some code at night :)",
     "id": 22,
-    "name": "Kamil Grondys",
-    "photo": "http://2016.mobilization.pl/images/speakers/kamil-grondys.jpg"
+    "name": "Kostiantyn Koval",
+    "photo": "http://2016.mobilization.pl/images/speakers/kostiantyn-koval.png",
+    "twitter": "https://twitter.com/KostiaKoval",
+    "website": "http://kostiakoval.github.io/"
   },
   {
-    "bio": "Mariusz has been programming on iOS since 2009. He graduated from Adam Mickiewicz University in Poznan. Mariusz worked for various companies like Roche Polska, eConsulting and SuperMemo World. Currently, he works as Software Development Lead in Allegro Group.  Speaker at Mobilization^3 and Mobile Trends Conference 2014 and WWDC 2014 attendee. Privately, passionate about football, mobile devices, Jaguar® cars and old Lego® sets.",
+    "bio": "Marius has been developing mobile & web applications ever since he graduated from university. In more recent years, he's shifted his focus towards mobile development, especially iOS and Objective-C, and since it came out a growing portion of Swift. With his work on the CocoaPods team, he hasn't forgotten about Ruby either.",
     "id": 23,
-    "name": "Mariusz Lisiecki",
-    "photo": "http://2016.mobilization.pl/images/speakers/mariusz-lisiecki.jpg"
+    "name": "Marius Rackwitz",
+    "photo": "http://2016.mobilization.pl/images/speakers/marius-rackwitz.png",
+    "twitter": "https://twitter.com/mrackwitz"
   },
   {
-    "bio": "Being C/C++ fan Anastasia has been creating real-time *nix-based systems and pushing them to the production for 8 years. She has passion for networking algorithms and embedded programming and believes in good tooling. Now she is a part of JetBrains team working as a Product Marketing Manager for AppCode and CLion (the upcoming C/C++ IDE).",
+    "bio": "Software Engineer, currently working as an iOS Developer at mBank. Working full time in Swift. Switched to Mobile apps development after +4 years of C/C++ and writing distributed VoIP servers. Experienced in maintaining large and long term projects.",
     "id": 24,
-    "name": "Anastazia Kazakova",
-    "photo": "http://2016.mobilization.pl/images/speakers/anastazia-kazakova.jpeg"
+    "name": "Tomasz Gebarowski",
+    "photo": "http://2016.mobilization.pl/images/speakers/tomasz-gebarowski.png"
   },
   {
-    "bio": "Programista aplikacji mobilnych z wieloletnim doświadczeniem. Współpracował z wieloma firmami i instytucjami pomagając tworzyć aplikacje biznesowe, reklamowe i rozrywkowe. Aktualnie konsultant w firmie Cybercom. Fan koszykówki, boksu, książek Stevena Kinga, Philipa K. Dicka i Howarda P. Lovecrafta, oraz oczywiście wszelkich technologii mobilnych.",
+    "bio": "Software engineer at mBank. Lifelong learner. Can’t stand workarounds and spaghetti code.",
     "id": 25,
-    "name": "Michał Walędziak",
-    "photo": "http://2016.mobilization.pl/images/speakers/michal-waledziak.jpg"
+    "name": "Wojciech Łukaszuk",
+    "photo": "http://2016.mobilization.pl/images/speakers/wojciech-lukaszuk.png",
+    "twitter": "https://twitter.com/wojteklu",
+    "website": "http://wojteklu.com/"
   },
   {
-    "bio": "Patryk Ząbkiewicz jest częścią zespołu operacyjnego firmy Bitbar. Realizuje z sukcesem inwestycje w duże farmy testowe na prawdziwych urządzeniach mobilnych. Tworzenie labolatorium do testów aplikacji mobilnych może być okazać się skomplikowanym zadaniem. Przedstawię 5 kruczków, o których możecie nie pomyśleć tworząc labolatorium testowe, a na które my natknęliśmy się podczas tworzenia naszej publicznie dostępnej chmury urządzeń mobilnych jak i labolatoriów testowych bezpośrednio u klientów.",
+    "bio": "Fan of technological solutions that makes life easier. From own proof-of-concept hardware, to designed IoT devices or ConnectedCar solution. Carpenter with love and passion, claiming that the best way to relax is a chisel, plane and a piece of wood. With testing and security connected from childhood - Everything can be breached and everything can be automated :)",
     "id": 26,
-    "name": "Patryk Ząbkiewicz",
-    "photo": "http://2016.mobilization.pl/images/speakers/patryk-zabkiewicz.jpg"
+    "name": "Michał Kucharski",
+    "photo": "http://2016.mobilization.pl/images/speakers/mobilization-soldier.png"
   },
   {
-    "bio": "Android developer at CactusSoft (Belarus), certified Java 7 programmer, author of the popular open source library for Android - Universal Image Loader. Attended in Mobile Optimized 2014 conference in Minsk (http://mo.dev.by), reported presentation \"Universal Image Loader: Story, Architecture, FAQ\". ",
+    "bio": "Agnieszka is currently working as a UI Designer at Polidea. She graduated from the Warsaw Academy of Arts in 2016. Her bottomless passion for humans beings developed her constant question-asking attitude, and her love for design and design thinking lead her career path toward Service and Experience Design. It is during a Summer School at the Copenhagen Institute of Interactive Design that she polished her skills in user research, prototyping, design thinking, basic programming, workability and teamwork",
     "id": 27,
-    "name": "Sergey Tarasevich",
-    "photo": "http://2016.mobilization.pl/images/speakers/sergey-tarasevich.jpg"
+    "name": "Agnieszka Czyżak",
+    "photo": "http://2016.mobilization.pl/images/speakers/agnieszka-czyzak.png"
   },
   {
-    "bio": "Założyciel i współwłaściciel JAVEO, entuzjasta nowych technologii i zwinnych metod rozwoju oprogramowania. Od wielu lat wymyśla sposoby na to jak lepiej, szybciej i sprawniej tworzyć oprogramowanie. Zwolennik i propagator ruchu Open Source. Brał udział jako prelegent w konferencjach Confitura, Warsjawa, GigaCon.",
+    "bio": "For the past 4 years Rafał has been involved in mobile app development. He is Currently working at Polidea as a senior iOS developer. Passionate programmer and triathlete he is constantly looking for new thrills both in app development and in sports",
     "id": 28,
-    "name": "Jacek Zadrąg",
-    "photo": "http://2016.mobilization.pl/images/speakers/jacek-zadrag.jpg"
+    "name": "Rafał Tulwin",
+    "photo": "http://2016.mobilization.pl/images/speakers/rafal-tulwin.png"
   },
   {
-    "bio": "Programista w JAVEO odpowiedzialny za rozwój produktów i usług mobilnych na platformie Android.",
+    "bio": "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
     "id": 29,
-    "name": "Daniel Chruściak",
-    "photo": "http://2016.mobilization.pl/images/speakers/daniel-chrusciak.jpg"
+    "name": "Łukasz Mróz",
+    "photo": "http://2016.mobilization.pl/images/speakers/lukasz-mroz.png"
   },
   {
-    "bio": "Career coach aktywnie wspierający klientów w działaniach na rynku pracy. W tym czasie, przeprowadziła przez proces zmiany blisko 200 klientów indywidualnych. W firmie Architekci Kariery, przez 2 lata, pełniła funkcję Dyrektora ds. programów rozwojowych, gdzie odpowiadała za merytorykę pracy 16-osobowego zespołu coachów i konsultantów kariery. Wcześniej realizowała długofalowe projekty personalne w jednej z największych instytucji finansowych w kraju. Współtworzyła grupę coachów pracujących z przedstawicielami handlowymi.",
+    "bio": "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
     "id": 30,
-    "name": "Zofia Jakubczyńska",
-    "photo": "http://2016.mobilization.pl/images/speakers/zofia-jakubczynska.png"
+    "name": "Anton Minashkin",
+    "photo": "http://2016.mobilization.pl/images/speakers/anton-minashkin.png"
   },
   {
-    "bio": "Współzałożyciel i CTO agencji interaktywnej Kalicińscy.com. obecnie kieruje zespołem zajmującym się tworzeniem aplikacji mobilnych pod marką We Like CAPS! Lubi dzielić się wiedzą i doświadczeniem z innymi entuzjastami nowych technologii na spotkaniach organizowanych przez Google Developer Groups i nie tylko. Jako Google Developer Expert interestuje się wszystkim co związane z Androidem.",
+    "bio": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
     "id": 31,
-    "name": "Wojciech Kaliciński",
-    "photo": "http://2016.mobilization.pl/images/speakers/wojciech-kalicinski.jpg"
+    "name": "Master Coder",
+    "photo": "http://2016.mobilization.pl/images/speakers/master-coder.png"
   },
   {
-    "bio": "Tomasz Grynfelder, Software Engineer at Polidea, mobile technologies freak highly focused on iOS development and security. Great fan of cycling and sailing.",
+    "bio": "Passionate problem solver with experience in algorithms prototyping, software design and optimization for mobile platforms. Perfectionist in public presentations. On a daily basis working for Tomtom, trying to squeeze the self-driving-car's imagination within an SD card, and the cars' eyes and ears within the tip of a side mirror",
     "id": 32,
-    "name": "Tomasz Grynfelder",
-    "photo": "http://2016.mobilization.pl/images/speakers/tomasz-grynfelder.png"
+    "name": "Krzysztof Kudryński",
+    "photo": "http://2016.mobilization.pl/images/speakers/krzysztof-kudrynski.png"
   },
   {
-    "bio": "Sebastian Rutka pełni obecnie funkcje kierownika działu „Kernel &amp; System Frameworks” w Samsung R&amp;D Institute Poland. Z racji zajmowanego stanowiska oraz specyfiki projektów przez niego prowadzonych, jest również odpowiedzialny za współpracę ze społecznością wolnego oprogramowania.  W pracy łączy swoje zainteresowania z dziedziny zarządzania oraz nowoczesnych technologii.",
+    "bio": "An enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.",
     "id": 33,
-    "name": "Sebastian Rutka",
-    "photo": "http://2016.mobilization.pl/images/speakers/sebastian-rutka.jpg"
+    "name": "Błażej Kubiak",
+    "photo": "http://2016.mobilization.pl/images/speakers/blazej-kubiak.png"
   },
   {
-    "bio": "Marcin Kłosiński pracuje w Transition Technologies S.A. od ponad 6 lat i jest obecnie ekspertem ds. oprogramowania. Na co dzień zajmuje się nie tylko tworzeniem oprogramowania, lecz również kontaktami z klientem, dyskusji rozwiązań oraz prowadzeniem szkoleń w Polsce i za granicą. Ponadto koordynuje współpracę z łódzkimi uczelniami w ramach programów B+R oraz w celu prowadzenia przedmiotów przybliżających studentom temat programowania dla biznesu. Prywatnie interesuje się zagadnieniami sztucznej inteligencji i pracuje nad doktoratem oraz w wolnych chwilach trenuje squash’a.",
+    "bio": "",
     "id": 34,
-    "name": "Marcin Kłosiński",
-    "photo": "http://2016.mobilization.pl/images/speakers/marcin-klosinski.jpg"
+    "name": "Michał Mela",
+    "photo": "http://2016.mobilization.pl/images/speakers/michal-mela.png"
+  },
+  {
+    "bio": "",
+    "id": 35,
+    "name": "Michał Kamiński",
+    "photo": "http://2016.mobilization.pl/images/speakers/michal-kaminski.png"
+  },
+  {
+    "bio": "A software engineer currently working at HARMAN Connected Services mainly focused on Android applications development, however not afraid of deeper layers of the system. Team leader in the project dedicated to advanced head unit software development for Mercedes cars.",
+    "id": 36,
+    "name": "Jacek Rondio",
+    "photo": "http://2016.mobilization.pl/images/speakers/jacek-rondio.png"
+  },
+  {
+    "bio": "A software engineer, Linux enthusiast. Currently working at Harman Connected Services, assumed a role of Bluetooth and Telephony architect in one of the projects. Doesn’t like Facebook and Twitter, likes to build things and getting his hands dirty. Afterwards, he always washes his hands.",
+    "id": 37,
+    "name": "Krzysztof Sasiak",
+    "photo": "http://2016.mobilization.pl/images/speakers/krzysztof-sasiak.png"
   }
 ]

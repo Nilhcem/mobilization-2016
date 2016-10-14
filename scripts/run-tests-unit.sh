@@ -6,4 +6,4 @@ export JAVA_TOOL_OPTIONS='-Djava.awt.headless=true'
 ./gradlew :app:assembleProductionDebug
 ./gradlew :app:testProductionDebugUnitTest
 
-echo "test reports: $(pwd)/app/build/reports/tests/productionDebug/index.html"
+echo "test reports: $(pwd)/app/build/reports/tests/testProductionDebugUnitTest/productionDebug/index.html"

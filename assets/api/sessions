@@ -16,9 +16,33 @@
     "title": "Hello World"
   },
   {
-    "description": "We have that good feeling that if we have AV and Firewall, we are safe and secure in cyber space. Nothing more misleading. If you are targeted, then every access vector will be tailored to compromise your security. These days every kid knows how to bypass wireless network security to get a free internet access. What could happen if a real attacker broke into your network and targeted his payloads into your sensitive data? What about gathering sensitive data from around 50? 100? 500? Mobiles, laptop devices at once? From penetration testing, reverse engineering to intercepting mobile application traffic. How to craft attacks and how to avoid them? Theory and practice.",
+    "description": "Getting started with new product development we often forget that making it work requires more then just a great idea. Big ideas come with huge responsibilities which we not always know how to handle. The dilemma that we’ll be trying to find answer to is how to minimize the risk of the concept overgrowing us?",
     "duration": 45,
     "id": 3,
+    "roomId": 1,
+    "speakersId": [
+      40,
+      41
+    ],
+    "startAt": "2016-10-22 09:15",
+    "title": "MVP - getting business, design and technology together."
+  },
+  {
+    "description": "Connectivity is the starting point for new ways of innovating, collaborating and socializing. The Networked Society starts with connections, between devices and things but more importantly it is about the big ideas that become possible and will shape benefits to people. The Networked Society, as we see it, is based on four key elements: People: all of us, using connectivity to live, work and play more freely Things: everything that benefits from being connected is connected – from phones and tablets, to cars and containers, to classrooms and clinics Interactivity: the ways that all these people and things communicate with each other, for example through mobile broadband and cloud Big ideas: game-changing innovations and services that connects what people want and need with things and interactivity and create something entirely new and beneficial to people, business and society Seen in that light, the Networked Society is a global movement. It is positive change driven across borders by people, business, governments and NGOs. The shaping of the Networked Society is a constant collaboration where we aspire to take a key role.",
+    "duration": 45,
+    "id": 4,
+    "roomId": 2,
+    "speakersId": [
+      44,
+      45
+    ],
+    "startAt": "2016-10-22 09:15",
+    "title": "Networked Society"
+  },
+  {
+    "description": "We have that good feeling that if we have AV and Firewall, we are safe and secure in cyber space. Nothing more misleading. If you are targeted, then every access vector will be tailored to compromise your security. These days every kid knows how to bypass wireless network security to get a free internet access. What could happen if a real attacker broke into your network and targeted his payloads into your sensitive data? What about gathering sensitive data from around 50? 100? 500? Mobiles, laptop devices at once? From penetration testing, reverse engineering to intercepting mobile application traffic. How to craft attacks and how to avoid them? Theory and practice.",
+    "duration": 45,
+    "id": 5,
     "roomId": 3,
     "speakersId": [
       26
@@ -27,21 +51,21 @@
     "title": "Mobile and application security based on Man-in-the-middle (MITM) vectors"
   },
   {
-    "description": "Najbardziej popularne zabezpieczenie to szyfrowanie danych na telefonie, ale czy to jest bezpieczne? Tak, o ile ustawisz bardzo długie hasło, ale czy długie hasło jest praktyczne? Nie, bo normalny użytkownik nie będzie go w stanie zapamiętać. Więc jak dostarczyć prawdzie bezpieczeństwo? Trzeba skorzystać z embedded secure elementu (eSE) lub eUICC. W ramach prezentacji dowiesz się czym jest eSE, czym różni się od eUICC (następcy karty SIM). Dowiesz się również jak wygląda ekosystem zarządzania eUICC/eSE (live demo) i bezpiecznymi aplikacji. A jak starczy czasu, to dowiesz się jak zacząć przygodę z secure elementem i Androidem.",
+    "description": "Bezpieczeństwo to temat-rzeka i choć wiele jego aspektów pomoże rozwiązać Ci wujek Google, stan wiedzy internetu na temat bezpieczeństwa danych w urządzeniach mobilnych uznajemy za niesatysfakcjonujący, przesycony starymi i niekompletnymi informacjami. Dlatego opowiemy Ci o praktycznych problemach, z którymi mierzymy się na co dzień,  zapewniając najwyższy możliwy poziom zabezpieczeń w mobilnych zastosowaniach płatniczych oraz uchylimy rąbka tajemnicy o najnowszych rozwiązaniach w tym zakresie. Na prezentacji zapoznasz się z aspektami bezpieczeństwa danych w urządzeniach mobilnych od trzech stron: • kryptografii – o czym należy pamiętać, jak jej (i jakiej) używać\n• bezpieczeństwa transportu – co musisz zapewnić i w jaki sposób\n• bezpieczeństwa przechowywania – jakie masz możliwości, jakie są ich wady i zalety",
     "duration": 45,
-    "id": 4,
+    "id": 6,
     "roomId": 4,
     "speakersId": [
       34,
       35
     ],
     "startAt": "2016-10-22 09:15",
-    "title": "Prawdziwe bezpieczeństwo w aplikacjach mobilnych [PL]"
+    "title": "(Prawdziwe) bezpieczeństwo danych w urządzeniach mobilnych [PL]"
   },
   {
     "description": "Android mobile phone, a drone, strong passion and a lot of patience. These are all the ingredients you need to start your adventure in the emerging world of flying services. During this presentation we will show you how we started ours. Hovewer funny and amusing, this will be a presentation about serious, high-level technology, unpredictable ideas and insistent scientific struggle to make all the algorithmic meat work on a mobile phone communicating with the flying machine. If you are planning to start a remote post office on the Moon, you cannot miss this presentation.",
     "duration": 45,
-    "id": 5,
+    "id": 7,
     "roomId": 5,
     "speakersId": [
       32,
@@ -52,7 +76,7 @@
   },
   {
     "duration": 20,
-    "id": 6,
+    "id": 8,
     "roomId": 0,
     "startAt": "2016-10-22 10:00",
     "title": "Coffee Break"
@@ -60,7 +84,7 @@
   {
     "description": "Performant applications are one of the key drivers of success in the mobile world. Users may abandon an app if it runs slowly. Learning how to build applications that balance speed and performance with functionality and UX can be a challenge; however, it's now more important than ever to get that balance right. This session will show you how to wring the most from any hardware your app is installed on, so you can increase your reach and engagement. An introduction to state–of-the-art Android techniques and the importance of performance in an Android application will be introduced, and later we will slowly walk through the Android SDK tools regularly used to debug and profile Android applications, learn about some advanced topics such as building layouts, multithreading, networking, security and battery life ( one of the biggest bottleneck in applications).",
     "duration": 45,
-    "id": 7,
+    "id": 9,
     "roomId": 1,
     "speakersId": [
       15
@@ -71,7 +95,7 @@
   {
     "description": "Is Swift ready for large scale business apps?  We would like to share our experience on writing one of the most popular mobile banking apps in Poland. The mBank app, that is entirely written in Swift. The problems we faced, lessons learnt, pitfalls and benefits",
     "duration": 45,
-    "id": 8,
+    "id": 10,
     "roomId": 2,
     "speakersId": [
       24,
@@ -83,7 +107,7 @@
   {
     "description": "Have you ever tried to reuse code from your mobile apps and you haven’t been able to? Did you start using frameworks only when Apple suggested it for Watch Extensions? With more platforms coming out, there's a clear need of bundling logic that can be reused and shared in multiple platforms. Frameworks will help us with that and will benefit our application code bases in many ways. Learn how to do it, with or without dependency manager involved, recommendations and some caveats you must keep in mind. Start building your own Foundation frameworks, reusable, well designed, and with single responsibilities.",
     "duration": 45,
-    "id": 9,
+    "id": 11,
     "roomId": 3,
     "speakersId": [
       2
@@ -94,7 +118,7 @@
   {
     "description": "With a domain driven approach, this talk will go through several coding examples and how they can be improved by leveraging the powerful type system in Kotlin with function objects, sealed classes, tuples, and the core collections. We'll review the way your application communicates across layers, and how you can improve your APIs with explicit types.",
     "duration": 45,
-    "id": 10,
+    "id": 12,
     "roomId": 4,
     "speakersId": [
       18
@@ -105,7 +129,7 @@
   {
     "description": "Managing Node.js dependencies is a common problem for anyone who does JavaScript development these days. Should you check in node_modules into github or should you rely on shrinkwrap.json? The path of taming node_modules is long for Facebook Engineering, I will talk about a solution that satisfied multiple parties: source control team, engineers who manage dependencies, security team and app developers.",
     "duration": 45,
-    "id": 11,
+    "id": 13,
     "roomId": 5,
     "speakersId": [
       3
@@ -115,7 +139,7 @@
   },
   {
     "duration": 20,
-    "id": 12,
+    "id": 14,
     "roomId": 0,
     "startAt": "2016-10-22 11:05",
     "title": "Coffee Break"
@@ -123,7 +147,7 @@
   {
     "description": "The Reactive Extensions for the JVM, better known as RxJava, have become a popular tool in Android development over the past years. Many new and existing libraries added support for Rx and “reactive” solutions to existing problems popped up over time. RxJava is both known for it’s power and it’s steep learning curve, so if you aren’t using RxJava already, what are you missing out on? Should you even be using RxJava? In this talk we’ll go over what RxJava is and how you can use it to solve problems in your Android apps, one step at a time. We will discuss how you can prevent shooting yourself in the foot by looking at common mistakes you may make when using RxJava and discussing tips and tricks for keeping your reactive app manageable.",
     "duration": 45,
-    "id": 13,
+    "id": 15,
     "roomId": 1,
     "speakersId": [
       16
@@ -132,21 +156,23 @@
     "title": "RxJava for the rest of us"
   },
   {
-    "description": "While having an opportunity to start an enterprise from scratch, humans tend to try out new processes, tools or technology. It is with that state of mind that we embraced “accessibility”. Indeed, as one of the hottest emerging topic in UX Design, “accessibility” methodology was to be integrated in the development of our latest project. Considering both designer’s and developer's point of view, we will talk about how we approached accessibility while making Shuttle - a mobile app for Android and iOS. We will describe step by step our full working process related to “accessibility”, with a strong focus on the importance of interdisciplinary collaboration and end user testing",
+    "description": "How car became a rich accessory for the mobile. We will present the wide range of possibilities that arose with the development of technologically advanced head units. From Bluetooth hands-free to advanced companion applications. All based on Mercedes S-class example.",
     "duration": 45,
-    "id": 14,
+    "id": 16,
     "roomId": 2,
     "speakersId": [
-      27,
-      28
+      36,
+      37,
+      38,
+      39
     ],
     "startAt": "2016-10-22 11:25",
-    "title": "Design that breaks down barriers"
+    "title": "Make your mobile more mobile"
   },
   {
     "description": "Android Marshmallow (and most recently Android Nougat) have introduced a lot of fresh features and the new permission system is by far not the only new security enhancement. Most of you already use their finger to unlock the smartphone and may have heard about this new fingerprint API - but have you ever played with it? And once we’re there: Do you know about the newly introduced improvements in the Keystore API? No? Then this talk is definitely for you! Still hesitating? Just remember that security and a good user experience is something we cannot know enough about. With just a few simple steps you can learn how to increase the security of your app, making authentication easier and your users happier - all at once. And to be honest: in the end that’s all we want, right?",
     "duration": 45,
-    "id": 15,
+    "id": 17,
     "roomId": 3,
     "speakersId": [
       19
@@ -157,7 +183,7 @@
   {
     "description": "Every application needs good architecture. In my talk I will try to show you our architecture that we use in our iOS projects: MVVM with Coordinators & RxSwift. Not only I will talk about basics, but we will quickly start writing the code live, describing what belongs where, controlling the flow using Coordinators, testing everything using Quick/Nimble, and make network requests using Moya",
     "duration": 45,
-    "id": 16,
+    "id": 18,
     "roomId": 4,
     "speakersId": [
       29
@@ -166,9 +192,9 @@
     "title": "MVVM with Coordinators & RxSwift"
   },
   {
-    "description": "greenDAO is the fastest ORM for Android. greenDAO 3 brings annotations and prepares the way for further enhancements like RX support. The author of greenDAO gives deep insights about how to best use ORM to make app development productive and fun.",
+    "description": "greenDAO is the fastest ORM for Android. greenDAO 3 brings annotations and prepares the way for further enhancements like RX support. The author of greenDAO gives deep insights about how to best use ORM to make app development productive and fun. But SQL is not your thing? We also have a sneak peek at a new alternative to greenDAO/SQLite.",
     "duration": 45,
-    "id": 17,
+    "id": 19,
     "roomId": 5,
     "speakersId": [
       10
@@ -179,7 +205,7 @@
   {
     "description": "VIPs (Speakers, Sponsors) have lunch in Congresowa Restaurant on base floor.\nAttendees will have soldiers' soup outside the building!",
     "duration": 65,
-    "id": 18,
+    "id": 20,
     "roomId": 0,
     "startAt": "2016-10-22 12:10",
     "title": "Lunch Break"
@@ -187,7 +213,7 @@
   {
     "description": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
     "duration": 45,
-    "id": 19,
+    "id": 21,
     "roomId": 5,
     "speakersId": [
       31
@@ -198,7 +224,7 @@
   {
     "description": "On Android, more and more developers are attracted to the functional programming-style concept of declarative data manipulation using lambdas. Java 8 has a new steams API, but it's limited to Android N. Backports exist, but it's RxJava that's all the rage, with its elegant threading solution. How do we use lambdas, streams and Rx effectively on Android? Orientation changes and background tasks? I propose to stop worrying about the lifecycle and cache your way into a blissful user experience.",
     "duration": 45,
-    "id": 20,
+    "id": 22,
     "roomId": 1,
     "speakersId": [
       7
@@ -209,7 +235,7 @@
   {
     "description": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
     "duration": 45,
-    "id": 21,
+    "id": 23,
     "roomId": 2,
     "speakersId": [
       1
@@ -220,7 +246,7 @@
   {
     "description": "More than the typical onView example Espresso offers a complete framework to interact with your UI. Once you start developing your tests you find common issues, in this talk learn tips and tricks on how to deal with the framework and avoid problems like synchronization, permissions, environment test scenarios and much more.",
     "duration": 45,
-    "id": 22,
+    "id": 24,
     "roomId": 3,
     "speakersId": [
       14
@@ -231,7 +257,7 @@
   {
     "description": "ZeroConf is a protocol that helps us advertising a service or discovering the available services in our networks. This is how Chromecast works, but why don’t we go deeper? We will dive into the definition of ZeroConf and why the protocol is needed, how it works and what libraries will help us implementing it on Android.",
     "duration": 45,
-    "id": 23,
+    "id": 25,
     "roomId": 4,
     "speakersId": [
       6
@@ -242,7 +268,7 @@
   {
     "description": "iOS talk detailing the benefits that SiriKit exposes and how can developers would greatly benefit from Apple actually opening it up for other users. • Introduction to SiriKit\n• How to implement it\n• Pro and Cons of th current implementation\n• Hacking it to overuse or abuse it to communicate without TravisCi",
     "duration": 45,
-    "id": 24,
+    "id": 26,
     "roomId": 5,
     "speakersId": [
       21
@@ -252,7 +278,7 @@
   },
   {
     "duration": 15,
-    "id": 25,
+    "id": 27,
     "roomId": 0,
     "startAt": "2016-10-22 14:00",
     "title": "Coffee Break"
@@ -260,7 +286,7 @@
   {
     "description": "Whether your native Android app is a pet project or has millions of users, you probably need the right tools, during the development, to help you modify persisted data in real time, simulate an slow/unstable HTTP(s) connection, detect bugs as fast as possible, or create mock servers to anticipate the development of a feature. We'll make a demonstration of all the tools we use, in 2016, to write maintainable code and improve our productivity.",
     "duration": 45,
-    "id": 26,
+    "id": 28,
     "roomId": 1,
     "speakersId": [
       4
@@ -271,7 +297,7 @@
   {
     "description": "As developers we often employ unit- and integration testing to catch bugs early during development. But how to detect regressions in performance? Sometimes a small slowdown can go unnoticed for weeks or months until the app becomes unbearably slow and a profiler gets attached. In this talk, we'll take an in-the-trenches look at how we set up a performance testing suite for JRebel for Android. We'll talk about challenges we faced when running the tests on our CI servers. We'll also cover how we pinpoint regressions to a single commit with the help of Elasticsearch and Kibana.",
     "duration": 45,
-    "id": 27,
+    "id": 29,
     "roomId": 2,
     "speakersId": [
       11
@@ -282,7 +308,7 @@
   {
     "description": "Android command line is a very powerful tool. During this talk, we'll briefly review what Android shell commands can be useful for development, testing, and automation. We'll concentrate on how your application can interact with the command line considering 2 approaches. The first one is based on Android framework tools and the second is the core of Facebook Stetho tool.",
     "duration": 45,
-    "id": 28,
+    "id": 30,
     "roomId": 3,
     "speakersId": [
       9
@@ -293,7 +319,7 @@
   {
     "description": "The annotation processing tool (APT) was released into the JDK 5, but we did not paid enough attention to it in order to exploit its potential. Today, annotation processors are part of many well known libraries that we use everyday in our professional code. On this talk we will learn how to code our custom annotation processor and to start looking at it as a very useful tool to reduce overhead in our production code. Because many recurrent problems could get solved using annotation processors!",
     "duration": 45,
-    "id": 29,
+    "id": 31,
     "roomId": 4,
     "speakersId": [
       13
@@ -304,7 +330,7 @@
   {
     "description": "A new talk introducing advanced techniques with the Objective C runtime and assessing their relevance in an increasingly Swifty world.",
     "duration": 45,
-    "id": 30,
+    "id": 32,
     "roomId": 5,
     "speakersId": [
       20
@@ -314,7 +340,7 @@
   },
   {
     "duration": 15,
-    "id": 31,
+    "id": 33,
     "roomId": 0,
     "startAt": "2016-10-22 15:00",
     "title": "Coffee Break"
@@ -322,7 +348,7 @@
   {
     "description": "How to deal with complexity, technical debt and not to fall into depression. Let's discuss the ways, architecture patterns and common mistakes and let's try to find the \"silver bullet\" of architecture, or at least let's find requirements for it",
     "duration": 45,
-    "id": 32,
+    "id": 34,
     "roomId": 1,
     "speakersId": [
       30
@@ -331,21 +357,33 @@
     "title": "How to design your app and not be damned by maintenance team"
   },
   {
-    "description": "How car became a rich accessory for the mobile. We will present the wide range of possibilities that arose with the development of technologically advanced head units. From Bluetooth hands-free to advanced companion applications. All based on Mercedes S-class example.",
+    "description": "While having an opportunity to start an enterprise from scratch, humans tend to try out new processes, tools or technology. It is with that state of mind that we embraced “accessibility”. Indeed, as one of the hottest emerging topic in UX Design, “accessibility” methodology was to be integrated in the development of our latest project. Considering both designer’s and developer's point of view, we will talk about how we approached accessibility while making Shuttle - a mobile app for Android and iOS. We will describe step by step our full working process related to “accessibility”, with a strong focus on the importance of interdisciplinary collaboration and end user testing",
     "duration": 45,
-    "id": 33,
+    "id": 35,
     "roomId": 2,
     "speakersId": [
-      36,
-      37
+      27,
+      28
     ],
     "startAt": "2016-10-22 15:15",
-    "title": "Make your mobile more mobile"
+    "title": "Design that breaks down barriers"
+  },
+  {
+    "description": "Na podstawie wykonanego i wdrożonego projektu przedstawiamy fakty i mity ze świata beaconów. Przekonacie się, że wdrożenie projektu beaconowego wymaga wielu testów, a otrzymywane wyniki mogą Was nie raz zaskoczyć.",
+    "duration": 45,
+    "id": 36,
+    "roomId": 3,
+    "speakersId": [
+      42,
+      43
+    ],
+    "startAt": "2016-10-22 15:15",
+    "title": "Z beaconem przez projekt - od pomysłu do klęski, od klęski do wdrożenia [PL]"
   },
   {
     "description": "In the software engineering business there is no one fits all solution but when design patterns arise in the community it is important to understand the reasons why they were originated and how to tweak them for our purposes. This talk will explore the VIPER design with top-down approach, deriving the design decisions from quality attributes of a software system including modularity, reusability, testability, single responsibility and more. You will learn the reasons why the design was initially conceived (Clean Architecture by Uncle Bob) then formalised for mobile (by Mutual Mobile) and how to revise it to fit your purposes. Eventually a modified version of the design, friendly called (B)VIPER, will be discussed as improvement for better reuse of modules among different teams.",
     "duration": 45,
-    "id": 34,
+    "id": 37,
     "roomId": 4,
     "speakersId": [
       5
@@ -356,7 +394,7 @@
   {
     "description": "Firebase goes beyond being just an alternative to building a serverless application. It is a complete solution to control and monitor several aspects of both your product and business. We will discuss how easy is to integrate Firebase with your current application and how it can be used to improve your experience towards your users from a technical standpoint.",
     "duration": 45,
-    "id": 35,
+    "id": 38,
     "roomId": 5,
     "speakersId": [
       17
@@ -366,7 +404,7 @@
   },
   {
     "duration": 15,
-    "id": 36,
+    "id": 39,
     "roomId": 0,
     "startAt": "2016-10-22 16:00",
     "title": "Coffee Break"
@@ -374,7 +412,7 @@
   {
     "description": "In this session we will learn the basics of Unit Testing and its importance. We will define what a Unit Test is, what type of Unit Tests there are and then talk about Test Doubles. Finally, we will focus on how to write new tests and improve existing ones by reviewing some Android Github projects. Can you sleep soundly without writing tests? Really???",
     "duration": 45,
-    "id": 37,
+    "id": 40,
     "roomId": 1,
     "speakersId": [
       12
@@ -385,7 +423,7 @@
   {
     "description": "Realm is a popular database for mobile used already in thousands of apps in the app stores and deployed on over a billion devices. This talk will show you how you can craft reactive applications, especially if you embrace persistence and state as a central part of your application architecture, by using the unique features of this database.",
     "duration": 45,
-    "id": 38,
+    "id": 41,
     "roomId": 2,
     "speakersId": [
       23
@@ -396,7 +434,7 @@
   {
     "description": "Swift have huge impact and on how we develop software these days. In thin talk I will explain why everyone needs to learn Swift regardless if you are  iOS, android, backend or any software developer. I will cover why Swift is so powerful and popular, how huge impact it has on whole Software development, what you need to do to stay competitive and productive developer and how you can shape Swift they way you want",
     "duration": 45,
-    "id": 39,
+    "id": 42,
     "roomId": 3,
     "speakersId": [
       22
@@ -407,7 +445,7 @@
   {
     "description": "Basic introduction to automating mobile apps with Appium.",
     "duration": 45,
-    "id": 40,
+    "id": 43,
     "roomId": 4,
     "speakersId": [
       8
@@ -418,7 +456,7 @@
   {
     "description": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
     "duration": 45,
-    "id": 41,
+    "id": 44,
     "roomId": 5,
     "speakersId": [
       31
@@ -428,7 +466,7 @@
   },
   {
     "duration": 10,
-    "id": 42,
+    "id": 45,
     "roomId": 0,
     "startAt": "2016-10-22 17:00",
     "title": "No Coffee Break"
@@ -436,7 +474,7 @@
   {
     "description": "Time to give thanks to all the sponsors and the organizer's team.",
     "duration": 30,
-    "id": 43,
+    "id": 46,
     "roomId": 0,
     "startAt": "2016-10-22 17:10",
     "title": "Finally meeting"
@@ -444,7 +482,7 @@
   {
     "description": "Free pizza and beer and follow up talks.\n15min from conference venue.\nPiotrkowska 217 Łódź",
     "duration": 344,
-    "id": 44,
+    "id": 47,
     "roomId": 0,
     "startAt": "2016-10-22 18:15",
     "title": "AfterParty in All Star Klubokawiarnia"

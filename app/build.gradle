@@ -28,8 +28,8 @@ apply from: rootProject.file('settings/gradle/sonarqube.gradle')
 def gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion '24.0.3'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId 'com.nilhcem.mobilization'
@@ -37,7 +37,7 @@ android {
         versionName '1.0'
 
         minSdkVersion 15
-        targetSdkVersion 24
+        targetSdkVersion 25
         resConfigs 'en', 'fr'
 
         buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""

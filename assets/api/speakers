@@ -16,7 +16,7 @@
     "website": "http://www.ppinera.es/"
   },
   {
-    "bio": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
+    "bio": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup Booktrack.",
     "id": 3,
     "name": "Konstantin Raev",
     "photo": "http://2016.mobilization.pl/images/speakers/konstantin-raev.jpg",
@@ -126,7 +126,7 @@
     "twitter": "https://twitter.com/sefford"
   },
   {
-    "bio": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his <a href='http://www.pacoworks.com'>blog</a>, or his <a href='https://github.com/pakoito'>libraries</a>",
+    "bio": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his blog, or his libraries",
     "id": 18,
     "name": "Francisco Estevez",
     "photo": "http://2016.mobilization.pl/images/speakers/francisco-estevez.jpg",

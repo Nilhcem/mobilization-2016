@@ -219,7 +219,7 @@
       31
     ],
     "startAt": "2016-10-22 12:20",
-    "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS"
+    "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS [PL]"
   },
   {
     "description": "On Android, more and more developers are attracted to the functional programming-style concept of declarative data manipulation using lambdas. Java 8 has a new steams API, but it's limited to Android N. Backports exist, but it's RxJava that's all the rage, with its elegant threading solution. How do we use lambdas, streams and Rx effectively on Android? Orientation changes and background tasks? I propose to stop worrying about the lifecycle and cache your way into a blissful user experience.",
@@ -462,7 +462,7 @@
       31
     ],
     "startAt": "2016-10-22 16:15",
-    "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST FINALS"
+    "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST FINALS [PL]"
   },
   {
     "duration": 10,

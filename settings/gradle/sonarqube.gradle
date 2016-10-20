@@ -13,11 +13,12 @@ sonarqube {
         property 'sonar.host.url', 'http://localhost:9000'
         property 'sonar.sources', 'src'
         property 'sonar.sourceEncoding', 'UTF-8'
-        property 'sonar.java.binaries', 'build'
+        property 'sonar.java.binaries', 'build/intermediates/classes/production/debug'
+        property 'sonar.java.test.binaries', 'build/intermediates/classes/test/production/debug'
 
         property 'sonar.exclusions', 'src/test/java/**'
         property 'sonar.core.codeCoveragePlugin', 'jacoco'
         property 'sonar.jacoco.reportPath', "$appProjectBuildDir/jacoco/testProductionDebugUnitTest.exec"
-        property 'sonar.junit.reportsPath', "$appProjectBuildDir/test-results/testDebugUnitTest/productionDebug"
+        property 'sonar.junit.reportsPath', "$appProjectBuildDir/test-results/testProductionDebugUnitTest/productionDebug"
     }
 }

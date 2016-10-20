@@ -22,9 +22,10 @@ object Mapper {
     fun convertSpeaker(id: Int, speaker: ApiSpeaker): AppSpeaker {
         val name = "${speaker.firstname} ${speaker.lastname}"
         val photo = "http://2016.mobilization.pl${speaker.photo_url}"
+        val bio = speaker.bio_html.parseHtml()
         val website = speaker.www?.nullIfEmpty()
         val twitter = speaker.twitter?.nullIfEmpty()
-        return AppSpeaker(id + 1, name, null, photo, speaker.bio_html, website, twitter, null)
+        return AppSpeaker(id + 1, name, null, photo, bio, website, twitter, null)
     }
 
     fun convertSessions(timeSlots: Map<String, TimeSlot>, talks: Map<String, Talk>, breaks: Map<String, Break>, scheduleSlots: Map<String, ScheduleSlot>, speakers: Map<String, AppSpeaker>): List<AppSession> {

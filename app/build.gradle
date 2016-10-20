@@ -107,7 +107,7 @@ ext.intentbuilderVersion = '0.14.0'
 ext.okhttpVersion = '3.4.1'
 ext.retrofitVersion = '2.1.0'
 ext.stethoVersion = '1.4.1'
-ext.supportVersion = '24.2.1'
+ext.supportVersion = '25.0.0'
 
 dependencies {
     compile "com.android.support:support-core-ui:$supportVersion"
